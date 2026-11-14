@@ -1,0 +1,10 @@
+{
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "device": "cpu",
+  "dimensions": 384,
+  "pooling": "recursive whitespace segments within token limit; token-count-weighted mean of L2-normalized segment vectors, then L2 normalize",
+  "query_document_processing": "identical; no prefix",
+  "cache_folder": "starter/.cache/huggingface/hub",
+  "max_sequence_tokens": 128
+}

@@ -1,6 +1,6 @@
 # Starter · PostgreSQL + pgvector
 
-Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Phần embedding, vector store, retrieval và entry point `src.run` vẫn có TODO. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; chưa xác nhận database đang hoạt động. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Đã bổ sung mã embedding local và vector store; xem hướng dẫn chạy/kiểm tra ở [results/vector_ingestion/README.md](results/vector_ingestion/README.md). Phần đánh giá retrieval và entry point `src.run` vẫn có TODO. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; database local đã được kiểm tra kết nối thành công. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 Chạy bước chia chunk từ thư mục gốc repo bằng `starter/.venv/bin/python starter/scripts/build_chunks.py`. Cấu hình, thống kê và mẫu chấm coherence xem [results/chunking/README.md](results/chunking/README.md).
 
@@ -17,8 +17,8 @@ starter/
 │   ├── models.py          # cấu trúc dữ liệu mẫu
 │   ├── ingestion.py       # đọc / chuẩn hóa tài liệu
 │   ├── chunking.py        # chia chunk cố định / theo đoạn
-│   ├── embeddings.py      # TODO: chọn model API hoặc local
-│   ├── store.py           # TODO: lưu vector, metadata và filter
+│   ├── embeddings.py      # embedding local, xử lý giới hạn token
+│   ├── store.py           # pgvector, snapshot upsert và filter
 │   ├── evaluation.py      # TODO: chấm truy xuất, lưu trace
 │   └── run.py             # TODO: kết nối các bước thành pipeline
 ├── data/                  # bạn tự chuẩn bị corpus được phép sử dụng
@@ -54,7 +54,7 @@ docker compose -p day6_student_starter stop
 
 ## 2. Chọn embedding model
 
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` chỉ có dependencies cơ bản: tự cài SDK hoặc thư viện local phù hợp với model bạn chọn và ghi lại version/lệnh cài trong báo cáo. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
+Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` đã có Sentence Transformers cho phương án local hiện tại; revision model nằm trong `embedding_config.json`. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
 
 ## 3. Hoàn thiện pipeline
 
