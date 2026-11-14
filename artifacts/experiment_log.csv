@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,document_id;source;page;verse_start;verse_end;char_start;char_end,none,,Baseline cửa sổ cố định có overlap; có thể cắt ngang dòng thơ.,,,,,Đã chia chunk; chưa embedding/retrieval. C dùng lại file B. Thống kê: starter/results/chunking/statistics.json
+B,paragraph,500,0,document_id;source;page;verse_start;verse_end;char_start;char_end,none,,Chia theo đoạn có thể giữ ý tốt hơn A; không overlap nên ít ký tự lặp.,,,,,Đã chia chunk; chưa embedding/retrieval. C dùng lại file B. Thống kê: starter/results/chunking/statistics.json
+C,paragraph,500,0,document_id;source;page;verse_start;verse_end;char_start;char_end,query-supplied range only,,Cùng chunk B; phạm vi dòng do câu hỏi cung cấp có thể giảm kết quả ngoài phạm vi.,,,,,Đã chia chunk; chưa embedding/retrieval. C dùng lại file B. Thống kê: starter/results/chunking/statistics.json

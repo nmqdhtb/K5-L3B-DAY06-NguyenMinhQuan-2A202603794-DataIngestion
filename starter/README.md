@@ -1,6 +1,8 @@
 # Starter · PostgreSQL + pgvector
 
-Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Phần embedding, vector store, retrieval và entry point `src.run` vẫn có TODO. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; chưa xác nhận database đang hoạt động. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
+
+Chạy bước chia chunk từ thư mục gốc repo bằng `starter/.venv/bin/python starter/scripts/build_chunks.py`. Cấu hình, thống kê và mẫu chấm coherence xem [results/chunking/README.md](results/chunking/README.md).
 
 ## Cấu trúc
 
@@ -13,8 +15,8 @@ starter/
 ├── scripts/check_setup.py # kiểm tra kết nối và extension (đã chạy được)
 ├── src/
 │   ├── models.py          # cấu trúc dữ liệu mẫu
-│   ├── ingestion.py       # TODO: đọc / chuẩn hóa tài liệu
-│   ├── chunking.py        # TODO: chia chunk
+│   ├── ingestion.py       # đọc / chuẩn hóa tài liệu
+│   ├── chunking.py        # chia chunk cố định / theo đoạn
 │   ├── embeddings.py      # TODO: chọn model API hoặc local
 │   ├── store.py           # TODO: lưu vector, metadata và filter
 │   ├── evaluation.py      # TODO: chấm truy xuất, lưu trace
