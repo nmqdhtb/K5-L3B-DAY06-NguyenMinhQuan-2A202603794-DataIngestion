@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-11-14T10:53:02.775214+07:00",
+  "python_version": "3.12.2",
+  "pypdf_version": "6.21.4",
+  "sources": [
+    {
+      "source_id": "truyen-kieu-nguyen-du",
+      "physical_pages": 190,
+      "included_pages": 189,
+      "normalized_characters": 108618,
+      "replacements_u": 1632,
+      "sha256": "b27aa63630e85c1bbe0a3f9752eac4214a39f7bdeb18a8f82d47d7e1a6a4deee"
+    }
+  ],
+  "extraction_errors_or_empty_pages": 0,
+  "scope": "Extraction checks only; not proof of licensing or manual review of every page"
+}
