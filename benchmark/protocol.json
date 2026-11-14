@@ -2,7 +2,7 @@
   "version": 1,
   "created_at": "2026-11-14T11:00:16.367111+07:00",
   "status": "split_and_selection_rule_fixed_before_retrieval; student evidence review confirmed",
-  "retrieval_run": false,
+  "retrieval_run": true,
   "split": {
     "dev": [
       "q01",
@@ -43,7 +43,7 @@
     "Small, single-work benchmark with thematic overlap",
     "Range filters are synthetic user-supplied study scopes, explicitly stated in questions",
     "Page-level range filter is coarse at boundary pages",
-    "AI authored and source-reviewed; student reports evidence verification complete; no retrieval-output audit labels or retrieval scores generated"
+    "AI authored and source-reviewed; student reports evidence verification complete; dev retrieval scores recorded separately; manual coherence/metadata/grounding labels pending"
   ],
   "frozen_files_sha256": {
     "data/processed/pages.jsonl": "e5c8229c586789d9d667a1ab23b739cb632597e51f58ec71a0a8781ec8738f16",
@@ -53,5 +53,10 @@
     "benchmark/coherence_positions.json": "0d36f0ac0ae2d1c7b5a2e253780377e6e7352e3b3aa9ff268770fe4c9e1990a6"
   },
   "student_review_record": "benchmark/student_review.json",
-  "student_review_confirmed_at": "2026-11-14T11:09:05.003145+07:00"
+  "student_review_confirmed_at": "2026-11-14T11:09:05.003145+07:00",
+  "execution_status": {
+    "dev": "completed",
+    "test": "not_run",
+    "selection_record": "benchmark/selected_strategy.json"
+  }
 }

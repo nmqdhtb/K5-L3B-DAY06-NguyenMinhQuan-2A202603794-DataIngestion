@@ -68,7 +68,7 @@ def validate():
             'coherence_positions': len(positions), 'frozen_hashes_verified': True,
             'student_evidence_review': ('confirmed_by_student; self-reported in conversation'
                                         if confirmed else 'pending; not certified by this script'),
-            'retrieval_metrics': 'not run'}
+            'retrieval_metrics': 'not computed by this validation script'}
 
 
 if __name__ == '__main__':

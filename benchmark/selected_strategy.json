@@ -1,0 +1,80 @@
+{
+  "selected_strategy": "C",
+  "selected_at": "2026-11-14T11:32:55.829181+07:00",
+  "selection_rule": [
+    "Highest dev Evidence Hit@3",
+    "Then highest dev Hit@1",
+    "Then fewer indexed chunks",
+    "Then alphabetical strategy ID for deterministic final tie"
+  ],
+  "dev_metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "question_count": 15,
+      "hit1_numerator": 1,
+      "hit3_numerator": 3,
+      "hit1": 0.06666666666666667,
+      "hit3": 0.2,
+      "chunk_count": 377,
+      "search_seconds": 0.2563997079851106,
+      "filter_question_count": 3,
+      "filter_top3_compliant_count": 0
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "question_count": 15,
+      "hit1_numerator": 2,
+      "hit3_numerator": 5,
+      "hit1": 0.13333333333333333,
+      "hit3": 0.3333333333333333,
+      "chunk_count": 379,
+      "search_seconds": 0.22522145800758153,
+      "filter_question_count": 3,
+      "filter_top3_compliant_count": 0
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "question_count": 15,
+      "hit1_numerator": 3,
+      "hit3_numerator": 6,
+      "hit1": 0.2,
+      "hit3": 0.4,
+      "chunk_count": 379,
+      "search_seconds": 0.20580783195327967,
+      "filter_question_count": 3,
+      "filter_top3_compliant_count": 3
+    }
+  ],
+  "dev_run_directory": "starter/results/benchmark/dev/20261114T113255829181",
+  "test_run": false,
+  "frozen_files_sha256": {
+    "data/processed/pages.jsonl": "e5c8229c586789d9d667a1ab23b739cb632597e51f58ec71a0a8781ec8738f16",
+    "benchmark/questions.json": "bfd95c40ef437861d8c4696be2f9667ac179d7bbb17c6739a76de2699120e914",
+    "benchmark/dev_queries.json": "2462d394a26b439954d90d6586875e209ead66e6c0a3ea89919a4f74946c422a",
+    "benchmark/test_queries.json": "64767abb547229a86e9a0e6ca5d1c03ac9a959310ab0ec9727f4fd8318196e75",
+    "benchmark/coherence_positions.json": "0d36f0ac0ae2d1c7b5a2e253780377e6e7352e3b3aa9ff268770fe4c9e1990a6",
+    "starter/embedding_config.json": "66373f9755e7e309e41677a967e0e2dd63da4f3b296c17b1578bcb0bf99005da",
+    "starter/results/chunking/config.json": "f0915c25fa87c826daca1c75d8e23a12ad23f1d44d62f23835e06571ce7859c2",
+    "starter/results/chunking/chunks_A.jsonl": "4c81a4524153d06dd3eef5b13bc5236891c8f4391fa146e277057e8d308a5c8e",
+    "starter/results/chunking/chunks_B.jsonl": "8d2d23c8adba2aba92af2c7e38e3b468e84f2c9fad09d9b6cf264accfcc4ddf3",
+    "starter/src/embeddings.py": "b978db9b361ac3c9c3a779ce87c3c7b2814ce719333132d3a9063363bda679f1",
+    "starter/src/store.py": "a2069747967dffac7f9c9890ecac514bce98852db9f37a96553fe7513b950108",
+    "starter/src/evaluation.py": "3db1e6e270bd64db60ec98536028362e2bbc6226469c0b75d0aeba71f8a9fbae",
+    "starter/src/chunking.py": "233cd90a1d3f40dac4dfb761d23b049146ed13ca0ef535715de809a7efe526ce",
+    "starter/scripts/run_dev_benchmark.py": "e6f5fd805bbbce0150feb74a5b62d1e7f5eb1f868bffba876ad07a2427d396d5",
+    "starter/requirements-lock.txt": "6f67f142b3992d6e9a09eb8dc598be8f68ebaeabd74c47a6c947f28aee3122d3",
+    "starter/scripts/validate_benchmark.py": "07c5238edbb1fb315fb0712730182cec38ba7cf4f49fcf37cd2dfdc248705688",
+    "starter/src/models.py": "5380cd16fcd0d4396db5dda3a205c148c148a5fd6e90b90d060dd546e39bb68d"
+  },
+  "reason": "Highest dev Hit@3, then Hit@1, then fewer chunks, then alphabetical strategy ID; no test results used.",
+  "dev_artifacts_sha256": {
+    "starter/results/benchmark/dev/20261114T113255829181/metrics.json": "e3824bd567458b0c64106a263233f042e8209bfb58261cc12e83e3df715808ed",
+    "starter/results/benchmark/dev/20261114T113255829181/metrics.csv": "f4a534475910531bb8812eec4de78cc9dab078bfeec2def8634b8404613055b5",
+    "starter/results/benchmark/dev/20261114T113255829181/per_question.csv": "abb06491e3b8b2c94d9630a970106ec7a5828868cded5abedeb7b121a874e211",
+    "starter/results/benchmark/dev/20261114T113255829181/traces.jsonl": "7a8b96ef329013504a681c826c94663e03fcd45bdcc918d308162c88564716d7",
+    "starter/results/benchmark/dev/20261114T113255829181/run.json": "cc52c10a42db61b387382716bebefcb34da94a29564775a68a6717b82267145d"
+  }
+}

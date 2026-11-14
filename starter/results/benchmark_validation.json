@@ -13,5 +13,5 @@
   "coherence_positions": 10,
   "frozen_hashes_verified": true,
   "student_evidence_review": "confirmed_by_student; self-reported in conversation",
-  "retrieval_metrics": "not run"
+  "retrieval_metrics": "not computed by this validation script"
 }

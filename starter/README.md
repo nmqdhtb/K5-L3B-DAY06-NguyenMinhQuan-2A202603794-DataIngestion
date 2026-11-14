@@ -1,6 +1,6 @@
 # Starter · PostgreSQL + pgvector
 
-Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Đã bổ sung mã embedding local và vector store; xem hướng dẫn chạy/kiểm tra ở [results/vector_ingestion/README.md](results/vector_ingestion/README.md). Phần đánh giá retrieval và entry point `src.run` vẫn có TODO. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; database local đã được kiểm tra kết nối thành công. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Đã bổ sung mã embedding local và vector store; xem hướng dẫn chạy/kiểm tra ở [results/vector_ingestion/README.md](results/vector_ingestion/README.md). Đã triển khai chấm evidence và chạy dev; xem [kết quả benchmark](results/benchmark/README.md). Entry point `src.run` vẫn có TODO; hiện dùng các script theo từng bước. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; database local đã được kiểm tra kết nối thành công. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 Chạy bước chia chunk từ thư mục gốc repo bằng `starter/.venv/bin/python starter/scripts/build_chunks.py`. Cấu hình, thống kê và mẫu chấm coherence xem [results/chunking/README.md](results/chunking/README.md).
 
@@ -19,7 +19,7 @@ starter/
 │   ├── chunking.py        # chia chunk cố định / theo đoạn
 │   ├── embeddings.py      # embedding local, xử lý giới hạn token
 │   ├── store.py           # pgvector, snapshot upsert và filter
-│   ├── evaluation.py      # TODO: chấm truy xuất, lưu trace
+│   ├── evaluation.py      # chấm evidence và tổng hợp Hit@1/Hit@3
 │   └── run.py             # TODO: kết nối các bước thành pipeline
 ├── data/                  # bạn tự chuẩn bị corpus được phép sử dụng
 └── results/               # lưu kết quả của bạn
