@@ -1,0 +1,34 @@
+{
+  "completed_at": "2026-11-14T11:32:55.829181+07:00",
+  "split": "dev",
+  "query_count": 15,
+  "trace_count": 45,
+  "query_embedding_seconds_shared_by_all_strategies": 0.360796541091986,
+  "query_embedding_stats": {
+    "texts": 15,
+    "segments": 15,
+    "texts_split_for_token_limit": 0,
+    "content_tokens_encoded": 345,
+    "max_content_tokens": 40
+  },
+  "total_seconds_excluding_imports": 2.0261308329645544,
+  "paid_api_cost_usd": 0,
+  "model": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "device": "cpu",
+    "dimensions": 384,
+    "pooling": "recursive whitespace segments within token limit; token-count-weighted mean of L2-normalized segment vectors, then L2 normalize",
+    "query_document_processing": "identical; no prefix",
+    "cache_folder": "starter/.cache/huggingface/hub",
+    "max_sequence_tokens": 128
+  },
+  "store": {
+    "schema": "day6_pipeline",
+    "postgresql_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector_version": "0.8.7",
+    "metric": "cosine",
+    "search": "exact; no ANN index"
+  },
+  "test_run": false
+}

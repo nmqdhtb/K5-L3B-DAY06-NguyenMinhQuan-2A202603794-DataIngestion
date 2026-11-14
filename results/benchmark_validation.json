@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "questions": 20,
+  "split_counts": {
+    "dev": 15,
+    "test": 5
+  },
+  "filter_question_counts": {
+    "dev": 3,
+    "test": 1
+  },
+  "exact_evidence_matches": 20,
+  "coherence_positions": 10,
+  "frozen_hashes_verified": true,
+  "student_evidence_review": "confirmed_by_student; self-reported in conversation",
+  "retrieval_metrics": "not computed by this validation script"
+}

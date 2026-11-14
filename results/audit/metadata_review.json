@@ -1,0 +1,1712 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "fb7aa2eab6c4069fc555d26bdea7f61d289a2b3286a1a732dd2f283706cb5444",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 140,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2414,
+      "char_start": 0,
+      "verse_start": 2397,
+      "extraction_status": "ok",
+      "raw_character_count": 605,
+      "normalization_replacements": 6,
+      "normalized_character_count": 571
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q16",
+    "rank": 2,
+    "chunk_id": "c5198cc2fc47aaaaf268e358b50d230c99c256f647cb35f1df7e8f15150a5297",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 130,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2242,
+      "char_start": 0,
+      "verse_start": 2225,
+      "extraction_status": "ok",
+      "raw_character_count": 621,
+      "normalization_replacements": 6,
+      "normalized_character_count": 589
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q16",
+    "rank": 3,
+    "chunk_id": "dfaafe216dda0fd62b60bb7b4b50a94ad1b4bba42706a57e270077a0e1eb886f",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 33,
+    "metadata": {
+      "char_end": 589,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 576,
+      "char_start": 450,
+      "verse_start": 560,
+      "extraction_status": "ok",
+      "raw_character_count": 625,
+      "normalization_replacements": 13,
+      "normalized_character_count": 589
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "rank": 1,
+    "chunk_id": "31b5303a0f3252dab888557767791d316f98280b3ab6be82bb657ea1d1c8aafc",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 108,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 1864,
+      "char_start": 0,
+      "verse_start": 1849,
+      "extraction_status": "ok",
+      "raw_character_count": 589,
+      "normalization_replacements": 14,
+      "normalized_character_count": 554
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "rank": 2,
+    "chunk_id": "50770469b3aac62ed86f2e86441d98881be4e6f3bdca0620be550740753544ec",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 72,
+    "metadata": {
+      "char_end": 599,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 1248,
+      "char_start": 450,
+      "verse_start": 1231,
+      "extraction_status": "ok",
+      "raw_character_count": 629,
+      "normalization_replacements": 14,
+      "normalized_character_count": 599
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q17",
+    "rank": 3,
+    "chunk_id": "c3c318e2dc647f156d644567912812b3afccfdc80e4323e1954207456a4589c5",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 150,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2584,
+      "char_start": 0,
+      "verse_start": 2569,
+      "extraction_status": "ok",
+      "raw_character_count": 567,
+      "normalization_replacements": 8,
+      "normalized_character_count": 535
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q18",
+    "rank": 1,
+    "chunk_id": "918bf2e174de3b750a5ab0f5216e00246fcf187efce9bf91a7ec38babe834c18",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 172,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2962,
+      "char_start": 0,
+      "verse_start": 2945,
+      "extraction_status": "ok",
+      "raw_character_count": 636,
+      "normalization_replacements": 9,
+      "normalized_character_count": 601
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q18",
+    "rank": 2,
+    "chunk_id": "618e2dd628212d9a1597d9c92e2d00ace794624ad2c6c0c24bce4d525fe3c6ae",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 167,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2876,
+      "char_start": 0,
+      "verse_start": 2860,
+      "extraction_status": "ok",
+      "raw_character_count": 633,
+      "normalization_replacements": 12,
+      "normalized_character_count": 597
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q18",
+    "rank": 3,
+    "chunk_id": "62ad856dc6313b8b0406ad65af01e56b4767844ff3c4e9cf02a891b06fb20cf1",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 157,
+    "metadata": {
+      "char_end": 574,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2704,
+      "char_start": 450,
+      "verse_start": 2689,
+      "extraction_status": "ok",
+      "raw_character_count": 607,
+      "normalization_replacements": 12,
+      "normalized_character_count": 574
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "rank": 1,
+    "chunk_id": "fae12c4810215d30e8b902a14825d6271e409b2d26a5a1b1de390f7ac38178e6",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 168,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2894,
+      "char_start": 0,
+      "verse_start": 2877,
+      "extraction_status": "ok",
+      "raw_character_count": 619,
+      "normalization_replacements": 8,
+      "normalized_character_count": 585
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "rank": 2,
+    "chunk_id": "00e35ca4daf17e797fe92cf63ef0adee0ed41bd26e7c5439580da95ec0071a30",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 170,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2928,
+      "char_start": 0,
+      "verse_start": 2911,
+      "extraction_status": "ok",
+      "raw_character_count": 643,
+      "normalization_replacements": 9,
+      "normalized_character_count": 609
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q19",
+    "rank": 3,
+    "chunk_id": "618e2dd628212d9a1597d9c92e2d00ace794624ad2c6c0c24bce4d525fe3c6ae",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 167,
+    "metadata": {
+      "char_end": 500,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2876,
+      "char_start": 0,
+      "verse_start": 2860,
+      "extraction_status": "ok",
+      "raw_character_count": 633,
+      "normalization_replacements": 12,
+      "normalized_character_count": 597
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q20",
+    "rank": 1,
+    "chunk_id": "4d39249b30c2f351a62da308d441cb28d93fad97cfcea998622430ca15bfd0e6",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 145,
+    "metadata": {
+      "char_end": 543,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2499,
+      "char_start": 450,
+      "verse_start": 2483,
+      "extraction_status": "ok",
+      "raw_character_count": 578,
+      "normalization_replacements": 4,
+      "normalized_character_count": 543
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q20",
+    "rank": 2,
+    "chunk_id": "f0440d5dfbf084cf18a012060c236ca34a1bb7baecdc6d88122682e84883708d",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 82,
+    "metadata": {
+      "char_end": 556,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 1419,
+      "char_start": 450,
+      "verse_start": 1403,
+      "extraction_status": "ok",
+      "raw_character_count": 592,
+      "normalization_replacements": 10,
+      "normalized_character_count": 556
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "question_id": "q20",
+    "rank": 3,
+    "chunk_id": "cac3bb5918b7f52d255490ce2ce33179db5fc60a6eec7445dd7793609004245e",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 168,
+    "metadata": {
+      "char_end": 585,
+      "chunking": {
+        "size": 500,
+        "method": "fixed",
+        "overlap": 50
+      },
+      "verse_end": 2894,
+      "char_start": 450,
+      "verse_start": 2877,
+      "extraction_status": "ok",
+      "raw_character_count": 619,
+      "normalization_replacements": 8,
+      "normalized_character_count": 585
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "4350e560d330cc5bb75d813f482774c86cbbd081a36dda29021245fa3e2cf81c",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 140,
+    "metadata": {
+      "char_end": 409,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2414,
+      "char_start": 0,
+      "verse_start": 2397,
+      "extraction_status": "ok",
+      "raw_character_count": 605,
+      "normalization_replacements": 6,
+      "normalized_character_count": 571
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q16",
+    "rank": 2,
+    "chunk_id": "d78e05967fa32ea86c26c1aaa67daeffa9e97906b8ef683e3afa1305308cef4f",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 148,
+    "metadata": {
+      "char_end": 341,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2550,
+      "char_start": 0,
+      "verse_start": 2535,
+      "extraction_status": "ok",
+      "raw_character_count": 579,
+      "normalization_replacements": 5,
+      "normalized_character_count": 545
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q16",
+    "rank": 3,
+    "chunk_id": "ce11e35f421bfed1a1e3cafd3f6d4ecf20d0a7b6e7bacabfe7435d52f8ce5060",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 130,
+    "metadata": {
+      "char_end": 489,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2242,
+      "char_start": 0,
+      "verse_start": 2225,
+      "extraction_status": "ok",
+      "raw_character_count": 621,
+      "normalization_replacements": 6,
+      "normalized_character_count": 589
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "rank": 1,
+    "chunk_id": "5e4ff1fad8d123d590fbf210c3757d7a8a967f1bca6dd85b858af2d33565695e",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 72,
+    "metadata": {
+      "char_end": 599,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 1248,
+      "char_start": 473,
+      "verse_start": 1231,
+      "extraction_status": "ok",
+      "raw_character_count": 629,
+      "normalization_replacements": 14,
+      "normalized_character_count": 599
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "rank": 2,
+    "chunk_id": "2c5ecf61fe617a3242e1e573e4743442ad0b7bfc615c42ea47aa5d6d02545eb8",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 150,
+    "metadata": {
+      "char_end": 357,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2584,
+      "char_start": 0,
+      "verse_start": 2569,
+      "extraction_status": "ok",
+      "raw_character_count": 567,
+      "normalization_replacements": 8,
+      "normalized_character_count": 535
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q17",
+    "rank": 3,
+    "chunk_id": "38d28a6a62a1836c927db7435c9e4bcf2df91c5ed2b51dfc080ebadbfe949255",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 37,
+    "metadata": {
+      "char_end": 535,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 644,
+      "char_start": 359,
+      "verse_start": 629,
+      "extraction_status": "ok",
+      "raw_character_count": 569,
+      "normalization_replacements": 10,
+      "normalized_character_count": 535
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q18",
+    "rank": 1,
+    "chunk_id": "8b0be26abe8f1501c0b6287b17b36d8809a4774f9e366c2b5f51890bb0806af5",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 172,
+    "metadata": {
+      "char_end": 498,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2962,
+      "char_start": 0,
+      "verse_start": 2945,
+      "extraction_status": "ok",
+      "raw_character_count": 636,
+      "normalization_replacements": 9,
+      "normalized_character_count": 601
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q18",
+    "rank": 2,
+    "chunk_id": "5ed8771b5395515de701f2540748cadb450483109db659ea9fc8b2742402de9c",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 124,
+    "metadata": {
+      "char_end": 571,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2139,
+      "char_start": 397,
+      "verse_start": 2123,
+      "extraction_status": "ok",
+      "raw_character_count": 606,
+      "normalization_replacements": 6,
+      "normalized_character_count": 571
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q18",
+    "rank": 3,
+    "chunk_id": "b513e8bc7ee05dfe93e5e6fc03ff07664ef42936235fe332e5e269a356879d07",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 160,
+    "metadata": {
+      "char_end": 337,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2756,
+      "char_start": 0,
+      "verse_start": 2740,
+      "extraction_status": "ok",
+      "raw_character_count": 602,
+      "normalization_replacements": 13,
+      "normalized_character_count": 566
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "rank": 1,
+    "chunk_id": "80f8620fe0b19eda4020b4086da534edfcbc4930bd312f504b97c79ea8cc1e5e",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 170,
+    "metadata": {
+      "char_end": 467,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2928,
+      "char_start": 0,
+      "verse_start": 2911,
+      "extraction_status": "ok",
+      "raw_character_count": 643,
+      "normalization_replacements": 9,
+      "normalized_character_count": 609
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "rank": 2,
+    "chunk_id": "ea0fd12246cf01706a61591dfdd0a4c9cf6db3757097ae1d1cff3f642fa25d46",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 9,
+    "metadata": {
+      "char_end": 449,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 164,
+      "char_start": 0,
+      "verse_start": 147,
+      "extraction_status": "ok",
+      "raw_character_count": 649,
+      "normalization_replacements": 12,
+      "normalized_character_count": 613
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q19",
+    "rank": 3,
+    "chunk_id": "896e2a7c441280bf7f76dfd6147fed90f9e500049389cb3a105aa26d83df61d4",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 105,
+    "metadata": {
+      "char_end": 431,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 1814,
+      "char_start": 0,
+      "verse_start": 1797,
+      "extraction_status": "ok",
+      "raw_character_count": 624,
+      "normalization_replacements": 11,
+      "normalized_character_count": 591
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q20",
+    "rank": 1,
+    "chunk_id": "c3196c5705b7ebcacb9c9e7df721347379eeedee0aeb5b3f884687f184d092cf",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 26,
+    "metadata": {
+      "char_end": 587,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 456,
+      "char_start": 339,
+      "verse_start": 440,
+      "extraction_status": "ok",
+      "raw_character_count": 623,
+      "normalization_replacements": 10,
+      "normalized_character_count": 587
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q20",
+    "rank": 2,
+    "chunk_id": "b328ccf21506aa4fdfaaf07a9d3ea0118aefc39eba58719c2e977682343ce934",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 82,
+    "metadata": {
+      "char_end": 556,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 1419,
+      "char_start": 396,
+      "verse_start": 1403,
+      "extraction_status": "ok",
+      "raw_character_count": 592,
+      "normalization_replacements": 10,
+      "normalized_character_count": 556
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q20",
+    "rank": 3,
+    "chunk_id": "c3d2e3834af86d9b96a48b2209af3427a9fb40529096b99c523f4446ca20c89e",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 189,
+    "metadata": {
+      "char_end": 414,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 3254,
+      "char_start": 0,
+      "verse_start": 3237,
+      "extraction_status": "ok",
+      "raw_character_count": 615,
+      "normalization_replacements": 6,
+      "normalized_character_count": 581
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "4350e560d330cc5bb75d813f482774c86cbbd081a36dda29021245fa3e2cf81c",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 140,
+    "metadata": {
+      "char_end": 409,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2414,
+      "char_start": 0,
+      "verse_start": 2397,
+      "extraction_status": "ok",
+      "raw_character_count": 605,
+      "normalization_replacements": 6,
+      "normalized_character_count": 571
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q16",
+    "rank": 2,
+    "chunk_id": "d78e05967fa32ea86c26c1aaa67daeffa9e97906b8ef683e3afa1305308cef4f",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 148,
+    "metadata": {
+      "char_end": 341,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2550,
+      "char_start": 0,
+      "verse_start": 2535,
+      "extraction_status": "ok",
+      "raw_character_count": 579,
+      "normalization_replacements": 5,
+      "normalized_character_count": 545
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q16",
+    "rank": 3,
+    "chunk_id": "ce11e35f421bfed1a1e3cafd3f6d4ecf20d0a7b6e7bacabfe7435d52f8ce5060",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 130,
+    "metadata": {
+      "char_end": 489,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2242,
+      "char_start": 0,
+      "verse_start": 2225,
+      "extraction_status": "ok",
+      "raw_character_count": 621,
+      "normalization_replacements": 6,
+      "normalized_character_count": 589
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "rank": 1,
+    "chunk_id": "2c5ecf61fe617a3242e1e573e4743442ad0b7bfc615c42ea47aa5d6d02545eb8",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 150,
+    "metadata": {
+      "char_end": 357,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2584,
+      "char_start": 0,
+      "verse_start": 2569,
+      "extraction_status": "ok",
+      "raw_character_count": 567,
+      "normalization_replacements": 8,
+      "normalized_character_count": 535
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "rank": 2,
+    "chunk_id": "eeaaa1e237dfdb0eac15df0af2704859f78253971f986eec7de1e9c516152feb",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 168,
+    "metadata": {
+      "char_end": 424,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2894,
+      "char_start": 0,
+      "verse_start": 2877,
+      "extraction_status": "ok",
+      "raw_character_count": 619,
+      "normalization_replacements": 8,
+      "normalized_character_count": 585
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q17",
+    "rank": 3,
+    "chunk_id": "053186ff12f02afb0aa30560df2786852a8754daeaec0084ba2b12bdf480e04a",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 187,
+    "metadata": {
+      "char_end": 398,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 3219,
+      "char_start": 0,
+      "verse_start": 3203,
+      "extraction_status": "ok",
+      "raw_character_count": 588,
+      "normalization_replacements": 4,
+      "normalized_character_count": 556
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q18",
+    "rank": 1,
+    "chunk_id": "8b0be26abe8f1501c0b6287b17b36d8809a4774f9e366c2b5f51890bb0806af5",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 172,
+    "metadata": {
+      "char_end": 498,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2962,
+      "char_start": 0,
+      "verse_start": 2945,
+      "extraction_status": "ok",
+      "raw_character_count": 636,
+      "normalization_replacements": 9,
+      "normalized_character_count": 601
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q18",
+    "rank": 2,
+    "chunk_id": "5ed8771b5395515de701f2540748cadb450483109db659ea9fc8b2742402de9c",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 124,
+    "metadata": {
+      "char_end": 571,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2139,
+      "char_start": 397,
+      "verse_start": 2123,
+      "extraction_status": "ok",
+      "raw_character_count": 606,
+      "normalization_replacements": 6,
+      "normalized_character_count": 571
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q18",
+    "rank": 3,
+    "chunk_id": "b513e8bc7ee05dfe93e5e6fc03ff07664ef42936235fe332e5e269a356879d07",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 160,
+    "metadata": {
+      "char_end": 337,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2756,
+      "char_start": 0,
+      "verse_start": 2740,
+      "extraction_status": "ok",
+      "raw_character_count": 602,
+      "normalization_replacements": 13,
+      "normalized_character_count": 566
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "rank": 1,
+    "chunk_id": "80f8620fe0b19eda4020b4086da534edfcbc4930bd312f504b97c79ea8cc1e5e",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 170,
+    "metadata": {
+      "char_end": 467,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 2928,
+      "char_start": 0,
+      "verse_start": 2911,
+      "extraction_status": "ok",
+      "raw_character_count": 643,
+      "normalization_replacements": 9,
+      "normalized_character_count": 609
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "rank": 2,
+    "chunk_id": "ea0fd12246cf01706a61591dfdd0a4c9cf6db3757097ae1d1cff3f642fa25d46",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 9,
+    "metadata": {
+      "char_end": 449,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 164,
+      "char_start": 0,
+      "verse_start": 147,
+      "extraction_status": "ok",
+      "raw_character_count": 649,
+      "normalization_replacements": 12,
+      "normalized_character_count": 613
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q19",
+    "rank": 3,
+    "chunk_id": "896e2a7c441280bf7f76dfd6147fed90f9e500049389cb3a105aa26d83df61d4",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 105,
+    "metadata": {
+      "char_end": 431,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 1814,
+      "char_start": 0,
+      "verse_start": 1797,
+      "extraction_status": "ok",
+      "raw_character_count": 624,
+      "normalization_replacements": 11,
+      "normalized_character_count": 591
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q20",
+    "rank": 1,
+    "chunk_id": "c3196c5705b7ebcacb9c9e7df721347379eeedee0aeb5b3f884687f184d092cf",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 26,
+    "metadata": {
+      "char_end": 587,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 456,
+      "char_start": 339,
+      "verse_start": 440,
+      "extraction_status": "ok",
+      "raw_character_count": 623,
+      "normalization_replacements": 10,
+      "normalized_character_count": 587
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q20",
+    "rank": 2,
+    "chunk_id": "b328ccf21506aa4fdfaaf07a9d3ea0118aefc39eba58719c2e977682343ce934",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 82,
+    "metadata": {
+      "char_end": 556,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 1419,
+      "char_start": 396,
+      "verse_start": 1403,
+      "extraction_status": "ok",
+      "raw_character_count": 592,
+      "normalization_replacements": 10,
+      "normalized_character_count": 556
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q20",
+    "rank": 3,
+    "chunk_id": "c3d2e3834af86d9b96a48b2209af3427a9fb40529096b99c523f4446ca20c89e",
+    "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+    "page": 189,
+    "metadata": {
+      "char_end": 414,
+      "chunking": {
+        "method": "paragraph",
+        "overlap": 0,
+        "max_size": 500
+      },
+      "verse_end": 3254,
+      "char_start": 0,
+      "verse_start": 3237,
+      "extraction_status": "ok",
+      "raw_character_count": 615,
+      "normalization_replacements": 6,
+      "normalized_character_count": 581
+    },
+    "checks": {
+      "required_fields": true,
+      "source_matches_manifest": true,
+      "document_id_matches_manifest": true,
+      "physical_page_exists": true,
+      "chunk_matches_reextracted_pdf": true,
+      "verse_range_matches_pdf_derived_ordinals": true
+    },
+    "automatic_complete_and_correct": true,
+    "student_complete_and_correct": true,
+    "student_notes": "Học viên xác nhận kết quả đối chiếu được trình bày; không ghi nhận một lượt kiểm tra nguồn độc lập mới.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  }
+]

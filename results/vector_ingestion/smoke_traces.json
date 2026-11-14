@@ -1,0 +1,373 @@
+{
+  "probe": "embedding of first B chunk; not a benchmark question",
+  "B": [
+    {
+      "chunk_id": "a0b0f77fe65d40a4f8b49f3f49c497ce3045be28de23b74a89d601335f3b0a5f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 1,
+      "text": "Truyện Kiều (trọn bộ)\n\n1. Trăm năm trong cõi người ta,\n2. Chữ tài chữ mệnh khéo là ghét nhau.\n3. Trải qua một cuộc bể dâu,\n4. Những điều trông thấy mà đau đớn lòng.\n5. Lạ gì bỉ sắc tư phong,\n6. Trời xanh quen thói má hồng đánh ghen.",
+      "metadata": {
+        "char_end": 232,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 6,
+        "char_start": 0,
+        "verse_start": 1,
+        "extraction_status": "ok",
+        "raw_character_count": 249,
+        "normalization_replacements": 2,
+        "normalized_character_count": 232
+      },
+      "distance": 0.0,
+      "score": 1.0
+    },
+    {
+      "chunk_id": "eba64a3f2116c45b66b4e68f2896098889f9d7f6ad9f302081b49aca6daaf7d6",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 15,
+      "text": "Bụi hồng lẽo đẽo đi về chiêm bao.\nTuần trăng khuyết, đĩa dầu hao,\nMặt mơ tưởng mặt, lòng ngao ngán lòng.\nBuồng văn hơi giá như đồng,\nTrúc se ngọn thỏ, tơ chùng phím loan.\n\n255.\nMành Tương phất phất gió đàn,\nHương gây mùi nhớ, trà khan giọng tình.\nVì chăng duyên nợ ba sinh,\nThì chi đem thói khuynh thành trêu ngươi.\nBâng khuâng nhớ cảnh, nhớ người,\n\n",
+      "metadata": {
+        "char_end": 350,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 267,
+        "char_start": 0,
+        "verse_start": 250,
+        "extraction_status": "ok",
+        "raw_character_count": 647,
+        "normalization_replacements": 11,
+        "normalized_character_count": 612
+      },
+      "distance": 0.3209664821624756,
+      "score": 0.6790335178375244
+    },
+    {
+      "chunk_id": "5e4ff1fad8d123d590fbf210c3757d7a8a967f1bca6dd85b858af2d33565695e",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 72,
+      "text": "1245.\nĐòi phen nét vẽ, câu thơ,\nCung cầm trong nguyệt, nước cờ dưới hoa,\nVui là vui gượng kẻo mà,\nAi tri âm đó, mặn mà với ai?",
+      "metadata": {
+        "char_end": 599,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 1248,
+        "char_start": 473,
+        "verse_start": 1231,
+        "extraction_status": "ok",
+        "raw_character_count": 629,
+        "normalization_replacements": 14,
+        "normalized_character_count": 599
+      },
+      "distance": 0.32222115993499756,
+      "score": 0.6777788400650024
+    }
+  ],
+  "C_unfiltered": [
+    {
+      "chunk_id": "a0b0f77fe65d40a4f8b49f3f49c497ce3045be28de23b74a89d601335f3b0a5f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 1,
+      "text": "Truyện Kiều (trọn bộ)\n\n1. Trăm năm trong cõi người ta,\n2. Chữ tài chữ mệnh khéo là ghét nhau.\n3. Trải qua một cuộc bể dâu,\n4. Những điều trông thấy mà đau đớn lòng.\n5. Lạ gì bỉ sắc tư phong,\n6. Trời xanh quen thói má hồng đánh ghen.",
+      "metadata": {
+        "char_end": 232,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 6,
+        "char_start": 0,
+        "verse_start": 1,
+        "extraction_status": "ok",
+        "raw_character_count": 249,
+        "normalization_replacements": 2,
+        "normalized_character_count": 232
+      },
+      "distance": 0.0,
+      "score": 1.0
+    },
+    {
+      "chunk_id": "eba64a3f2116c45b66b4e68f2896098889f9d7f6ad9f302081b49aca6daaf7d6",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 15,
+      "text": "Bụi hồng lẽo đẽo đi về chiêm bao.\nTuần trăng khuyết, đĩa dầu hao,\nMặt mơ tưởng mặt, lòng ngao ngán lòng.\nBuồng văn hơi giá như đồng,\nTrúc se ngọn thỏ, tơ chùng phím loan.\n\n255.\nMành Tương phất phất gió đàn,\nHương gây mùi nhớ, trà khan giọng tình.\nVì chăng duyên nợ ba sinh,\nThì chi đem thói khuynh thành trêu ngươi.\nBâng khuâng nhớ cảnh, nhớ người,\n\n",
+      "metadata": {
+        "char_end": 350,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 267,
+        "char_start": 0,
+        "verse_start": 250,
+        "extraction_status": "ok",
+        "raw_character_count": 647,
+        "normalization_replacements": 11,
+        "normalized_character_count": 612
+      },
+      "distance": 0.3209664821624756,
+      "score": 0.6790335178375244
+    },
+    {
+      "chunk_id": "5e4ff1fad8d123d590fbf210c3757d7a8a967f1bca6dd85b858af2d33565695e",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 72,
+      "text": "1245.\nĐòi phen nét vẽ, câu thơ,\nCung cầm trong nguyệt, nước cờ dưới hoa,\nVui là vui gượng kẻo mà,\nAi tri âm đó, mặn mà với ai?",
+      "metadata": {
+        "char_end": 599,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 1248,
+        "char_start": 473,
+        "verse_start": 1231,
+        "extraction_status": "ok",
+        "raw_character_count": 629,
+        "normalization_replacements": 14,
+        "normalized_character_count": 599
+      },
+      "distance": 0.32222115993499756,
+      "score": 0.6777788400650024
+    }
+  ],
+  "C_filter_1_1000": [
+    {
+      "chunk_id": "a0b0f77fe65d40a4f8b49f3f49c497ce3045be28de23b74a89d601335f3b0a5f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 1,
+      "text": "Truyện Kiều (trọn bộ)\n\n1. Trăm năm trong cõi người ta,\n2. Chữ tài chữ mệnh khéo là ghét nhau.\n3. Trải qua một cuộc bể dâu,\n4. Những điều trông thấy mà đau đớn lòng.\n5. Lạ gì bỉ sắc tư phong,\n6. Trời xanh quen thói má hồng đánh ghen.",
+      "metadata": {
+        "char_end": 232,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 6,
+        "char_start": 0,
+        "verse_start": 1,
+        "extraction_status": "ok",
+        "raw_character_count": 249,
+        "normalization_replacements": 2,
+        "normalized_character_count": 232
+      },
+      "distance": 0.0,
+      "score": 1.0
+    },
+    {
+      "chunk_id": "eba64a3f2116c45b66b4e68f2896098889f9d7f6ad9f302081b49aca6daaf7d6",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 15,
+      "text": "Bụi hồng lẽo đẽo đi về chiêm bao.\nTuần trăng khuyết, đĩa dầu hao,\nMặt mơ tưởng mặt, lòng ngao ngán lòng.\nBuồng văn hơi giá như đồng,\nTrúc se ngọn thỏ, tơ chùng phím loan.\n\n255.\nMành Tương phất phất gió đàn,\nHương gây mùi nhớ, trà khan giọng tình.\nVì chăng duyên nợ ba sinh,\nThì chi đem thói khuynh thành trêu ngươi.\nBâng khuâng nhớ cảnh, nhớ người,\n\n",
+      "metadata": {
+        "char_end": 350,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 267,
+        "char_start": 0,
+        "verse_start": 250,
+        "extraction_status": "ok",
+        "raw_character_count": 647,
+        "normalization_replacements": 11,
+        "normalized_character_count": 612
+      },
+      "distance": 0.3209664821624756,
+      "score": 0.6790335178375244
+    },
+    {
+      "chunk_id": "fc8e8e6aaf1ea171e49477b4eff96a4ea811fc1c5f41c902c70555816029266a",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 5,
+      "text": "80. ấy mồ vô chủ, ai mà viếng thăm!\n81. Lòng đâu sẵn mối thương tâm,\n82. Thoắt nghe Kiều đã đầm đầm châu sa.\n83. Đau đớn thay phận đàn bà!\n84. Lời rằng bạc mệnh cũng là lời chung.\n85. Phũ phàng chi bấy hoá công,\n86. Ngày xanh mòn mỏi má hồng phôi pha.\n87. Sống làm vợ khắp người ta,\n88. Khéo thay thác xuống làm ma không chồng.\n89. Nào người phượng chạ loan chung,\n90. Nào người tích lục tham hồng là ai?\n\n",
+      "metadata": {
+        "char_end": 679,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 93,
+        "char_start": 273,
+        "verse_start": 72,
+        "extraction_status": "ok",
+        "raw_character_count": 813,
+        "normalization_replacements": 10,
+        "normalized_character_count": 780
+      },
+      "distance": 0.332069476370183,
+      "score": 0.667930523629817
+    }
+  ],
+  "C_filter_1001_2000": [
+    {
+      "chunk_id": "5e4ff1fad8d123d590fbf210c3757d7a8a967f1bca6dd85b858af2d33565695e",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 72,
+      "text": "1245.\nĐòi phen nét vẽ, câu thơ,\nCung cầm trong nguyệt, nước cờ dưới hoa,\nVui là vui gượng kẻo mà,\nAi tri âm đó, mặn mà với ai?",
+      "metadata": {
+        "char_end": 599,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 1248,
+        "char_start": 473,
+        "verse_start": 1231,
+        "extraction_status": "ok",
+        "raw_character_count": 629,
+        "normalization_replacements": 14,
+        "normalized_character_count": 599
+      },
+      "distance": 0.32222115993499756,
+      "score": 0.6777788400650024
+    },
+    {
+      "chunk_id": "ae6aa9a60f597aacb46eaa99c0bc46faf72134ef54e28d2e1af2d47a809c403f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 61,
+      "text": "1055.\nChung quanh những nước non người,\nĐau lòng lưu lạc, nên vài bốn câu.",
+      "metadata": {
+        "char_end": 574,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 1056,
+        "char_start": 500,
+        "verse_start": 1040,
+        "extraction_status": "ok",
+        "raw_character_count": 604,
+        "normalization_replacements": 8,
+        "normalized_character_count": 574
+      },
+      "distance": 0.34623098373413086,
+      "score": 0.6537690162658691
+    },
+    {
+      "chunk_id": "1076e3741ae90479582ec822618f92f49e8a19dabff9484c96f7dfcb795c6cdd",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 70,
+      "text": "1210.\nVành ngoài bảy chữ, vành trong tám nghề.\nChơi cho liễu chán, hoa chê,\nCho lăn lóc đá, cho mê mẩn đời.\nKhi khóe hạnh, khi nét ngài,\nKhi ngâm ngợi nguyệt, khi cười cợt hoa.",
+      "metadata": {
+        "char_end": 601,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 1214,
+        "char_start": 425,
+        "verse_start": 1197,
+        "extraction_status": "ok",
+        "raw_character_count": 633,
+        "normalization_replacements": 5,
+        "normalized_character_count": 601
+      },
+      "distance": 0.36264753341674805,
+      "score": 0.637352466583252
+    }
+  ],
+  "C_filter_2001_3254": [
+    {
+      "chunk_id": "a8f4ded99dbd5b93e8a2f5a841670f068fcf7603ce872296335874452b17ad23",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 173,
+      "text": "2975.\nTrông lên linh vị chữ bài,\nThất kinh mới hỏi: Những người đâu ta?\nVới nàng thân thích gần xa,\nNgười còn sao bỗng làm ma khóc người?\nNghe tin ngơ ngác rụng rời,",
+      "metadata": {
+        "char_end": 577,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 2979,
+        "char_start": 412,
+        "verse_start": 2963,
+        "extraction_status": "ok",
+        "raw_character_count": 608,
+        "normalization_replacements": 7,
+        "normalized_character_count": 577
+      },
+      "distance": 0.3526488928408079,
+      "score": 0.6473511071591921
+    },
+    {
+      "chunk_id": "3e08b923a2173a584d06f741ceadf6b45a9e4d98e542ec98aae067946d614332",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 137,
+      "text": "2360.\nĐời xưa mấy mặt đời này mấy gan?\nDễ dàng là thói hồng nhan,\nCàng cay nghiệt lắm càng oan trái nhiều!",
+      "metadata": {
+        "char_end": 598,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 2362,
+        "char_start": 492,
+        "verse_start": 2345,
+        "extraction_status": "ok",
+        "raw_character_count": 629,
+        "normalization_replacements": 13,
+        "normalized_character_count": 598
+      },
+      "distance": 0.3540529993740905,
+      "score": 0.6459470006259095
+    },
+    {
+      "chunk_id": "32e0e8d570aa38f4aca40ddf5d2986980c59df8c9affa5f81f43d915067387cd",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 138,
+      "text": "Hoạn Thư hồn lạc phách xiêu,\nKhấu đầu dưới trướng, liệu điều kêu ca.\n\n2365.\nRằng: Tôi chút dạ đàn bà,\nGhen tuông thì cũng người ta thường tình,\nNghĩ cho khi gác viết kinh,\nVới khi khỏi cửa dứt tình chẳng theo.\nLòng riêng riêng những kính yêu;\n\n2370.\nChồng chung, chưa dễ ai chiều cho ai.\nTrót lòng gây việc chông gai,\nCòn nhờ lượng bể thương bài nào chăng?\nKhen cho: Thật đã nên rằng,\nKhôn ngoan đến mực nói năng phải lời,\n\n",
+      "metadata": {
+        "char_end": 424,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 2379,
+        "char_start": 0,
+        "verse_start": 2363,
+        "extraction_status": "ok",
+        "raw_character_count": 618,
+        "normalization_replacements": 11,
+        "normalized_character_count": 586
+      },
+      "distance": 0.35512226819992065,
+      "score": 0.6448777318000793
+    }
+  ]
+}

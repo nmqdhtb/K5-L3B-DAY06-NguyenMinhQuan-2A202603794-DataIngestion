@@ -1,0 +1,86 @@
+{
+  "question": "Tìm đoạn thơ nói về cảnh thiên nhiên",
+  "strategy": "C",
+  "filter": {
+    "verse_start": {
+      "lte": 1000
+    },
+    "verse_end": {
+      "gte": 1
+    }
+  },
+  "hits": [
+    {
+      "chunk_id": "7259ba751aad98103bbbba2a98ccfdb40a1620f476436389a5ba8ca9d16ae593",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 10,
+      "text": "165.\nChập chờn cơn tỉnh cơn mê.\nRốn ngồi chẳng tiện, dứt về chỉn khôn.\nBóng tà như giục cơn buồn,\nKhách đà lên ngựa, người còn nghé theo.\nDưới cầu nước chảy trong veo,\n\n170.\nBên cầu tơ liễu bóng chiều thướt tha.\nKiều từ trở gót trướng hoa,\nMặt trời gác núi chiêng đà thu không.\nGương nga chênh chếch dòm song,\nVàng gieo ngấn nước, cây lồng bóng sân.\n\n",
+      "metadata": {
+        "char_end": 351,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 180,
+        "char_start": 0,
+        "verse_start": 165,
+        "extraction_status": "ok",
+        "raw_character_count": 585,
+        "normalization_replacements": 12,
+        "normalized_character_count": 549
+      },
+      "distance": 0.42229998111724854,
+      "score": 0.5777000188827515
+    },
+    {
+      "chunk_id": "eba64a3f2116c45b66b4e68f2896098889f9d7f6ad9f302081b49aca6daaf7d6",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 15,
+      "text": "Bụi hồng lẽo đẽo đi về chiêm bao.\nTuần trăng khuyết, đĩa dầu hao,\nMặt mơ tưởng mặt, lòng ngao ngán lòng.\nBuồng văn hơi giá như đồng,\nTrúc se ngọn thỏ, tơ chùng phím loan.\n\n255.\nMành Tương phất phất gió đàn,\nHương gây mùi nhớ, trà khan giọng tình.\nVì chăng duyên nợ ba sinh,\nThì chi đem thói khuynh thành trêu ngươi.\nBâng khuâng nhớ cảnh, nhớ người,\n\n",
+      "metadata": {
+        "char_end": 350,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 267,
+        "char_start": 0,
+        "verse_start": 250,
+        "extraction_status": "ok",
+        "raw_character_count": 647,
+        "normalization_replacements": 11,
+        "normalized_character_count": 612
+      },
+      "distance": 0.4386483430862427,
+      "score": 0.5613516569137573
+    },
+    {
+      "chunk_id": "1a3eff4c6eb6cd210b0222a479534a6329937a276fd08dedeb1ec93b571fe3d0",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 7,
+      "text": "ở đây âm khí nặng nề,\nBóng chiều đã ngả dậm về còn xa.\n\n115.\nKiều rằng: Những đấng tài hoa,\nThác là thể phách, còn là tinh anh,\nDễ hay tình lại gặp tình,\nChờ xem ắt thấy hiển linh bây giờ.\nMột lời nói chửa kịp thưa,\n\n120.\nThoắt đâu trận gió cuốn cờ đến ngay.\nào ào đổ lộc rung cây,\nở trong dường có hương bay ít nhiều.\nĐè chừng ngọn gió lần theo,\nDấu giày từng bước in rêu rành rành.\n\n",
+      "metadata": {
+        "char_end": 385,
+        "chunking": {
+          "method": "paragraph",
+          "overlap": 0,
+          "max_size": 500
+        },
+        "verse_end": 130,
+        "char_start": 0,
+        "verse_start": 113,
+        "extraction_status": "ok",
+        "raw_character_count": 607,
+        "normalization_replacements": 4,
+        "normalized_character_count": 572
+      },
+      "distance": 0.4450661805311539,
+      "score": 0.5549338194688461
+    }
+  ]
+}

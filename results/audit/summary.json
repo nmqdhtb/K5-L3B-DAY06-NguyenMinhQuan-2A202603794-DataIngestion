@@ -1,0 +1,61 @@
+{
+  "status": "Student confirmed AI proposals and presented metadata checks",
+  "method": "AI read all 30 selected coherence chunks (B/C duplicate chunks share judgement) and 15 test top-3 sets. Scored by GUIDE, not computed from hit flags. Metadata automatically compared against re-extracted PDF, manifest and derived verse ordinals.",
+  "bias": "AI implemented the pipeline and saw retrieval scores before labeling. Student accepted the proposals; this is AI-assisted review, not independent or blind human scoring.",
+  "human_labels_completed": true,
+  "strategies": {
+    "A": {
+      "ai_coherence_mean_out_of_2": 1.1,
+      "coherence_samples": 10,
+      "ai_grounding_mean_out_of_2": 1.2,
+      "grounding_counts_0_1_2": {
+        "0": 2,
+        "1": 0,
+        "2": 3
+      },
+      "automatic_metadata_correct": 15,
+      "metadata_records": 15,
+      "human_confirmed_labels": 15,
+      "confirmed_coherence_mean_out_of_2": 1.1,
+      "confirmed_grounding_mean_out_of_2": 1.2,
+      "student_confirmed_metadata_correct": 15,
+      "student_confirmed_metadata_records": 15
+    },
+    "B": {
+      "ai_coherence_mean_out_of_2": 1.4,
+      "coherence_samples": 10,
+      "ai_grounding_mean_out_of_2": 1.6,
+      "grounding_counts_0_1_2": {
+        "0": 1,
+        "1": 0,
+        "2": 4
+      },
+      "automatic_metadata_correct": 15,
+      "metadata_records": 15,
+      "human_confirmed_labels": 15,
+      "confirmed_coherence_mean_out_of_2": 1.4,
+      "confirmed_grounding_mean_out_of_2": 1.6,
+      "student_confirmed_metadata_correct": 15,
+      "student_confirmed_metadata_records": 15
+    },
+    "C": {
+      "ai_coherence_mean_out_of_2": 1.4,
+      "coherence_samples": 10,
+      "ai_grounding_mean_out_of_2": 1.6,
+      "grounding_counts_0_1_2": {
+        "0": 1,
+        "1": 0,
+        "2": 4
+      },
+      "automatic_metadata_correct": 15,
+      "metadata_records": 15,
+      "human_confirmed_labels": 15,
+      "confirmed_coherence_mean_out_of_2": 1.4,
+      "confirmed_grounding_mean_out_of_2": 1.6,
+      "student_confirmed_metadata_correct": 15,
+      "student_confirmed_metadata_records": 15
+    }
+  },
+  "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+  "confirmation_method": "Học viên xác nhận chung: “tôi xác nhận các đề xuất”. Giữ nguyên nguồn gốc điểm AI và kết quả kiểm tra tự động."
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "strategy": "A",
+    "split": "dev",
+    "question_count": 15,
+    "hit1_numerator": 1,
+    "hit3_numerator": 3,
+    "hit1": 0.06666666666666667,
+    "hit3": 0.2,
+    "chunk_count": 377,
+    "search_seconds": 0.2563997079851106,
+    "filter_question_count": 3,
+    "filter_top3_compliant_count": 0
+  },
+  {
+    "strategy": "B",
+    "split": "dev",
+    "question_count": 15,
+    "hit1_numerator": 2,
+    "hit3_numerator": 5,
+    "hit1": 0.13333333333333333,
+    "hit3": 0.3333333333333333,
+    "chunk_count": 379,
+    "search_seconds": 0.22522145800758153,
+    "filter_question_count": 3,
+    "filter_top3_compliant_count": 0
+  },
+  {
+    "strategy": "C",
+    "split": "dev",
+    "question_count": 15,
+    "hit1_numerator": 3,
+    "hit3_numerator": 6,
+    "hit1": 0.2,
+    "hit3": 0.4,
+    "chunk_count": 379,
+    "search_seconds": 0.20580783195327967,
+    "filter_question_count": 3,
+    "filter_top3_compliant_count": 3
+  }
+]

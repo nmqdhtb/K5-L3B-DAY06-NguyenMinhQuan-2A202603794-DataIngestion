@@ -1,0 +1,54 @@
+{
+  "A": {
+    "chunk_count": 377,
+    "min_characters": 60,
+    "max_characters": 500,
+    "mean_characters": 313.0450928381963,
+    "median_characters": 375,
+    "total_characters": 118018,
+    "build_and_validation_seconds": 0.0073452910874038935,
+    "length_bins": {
+      "1-100": 50,
+      "101-200": 134,
+      "201-300": 1,
+      "301-400": 4,
+      "401-500": 188
+    },
+    "file_sha256": "4c81a4524153d06dd3eef5b13bc5236891c8f4391fa146e277057e8d308a5c8e"
+  },
+  "B": {
+    "chunk_count": 379,
+    "min_characters": 36,
+    "max_characters": 500,
+    "mean_characters": 286.5910290237467,
+    "median_characters": 325,
+    "total_characters": 108618,
+    "build_and_validation_seconds": 0.007621707976795733,
+    "length_bins": {
+      "1-100": 37,
+      "101-200": 124,
+      "201-300": 27,
+      "301-400": 72,
+      "401-500": 119
+    },
+    "file_sha256": "8d2d23c8adba2aba92af2c7e38e3b468e84f2c9fad09d9b6cf264accfcc4ddf3"
+  },
+  "C": {
+    "chunk_count": 379,
+    "min_characters": 36,
+    "max_characters": 500,
+    "mean_characters": 286.5910290237467,
+    "median_characters": 325,
+    "total_characters": 108618,
+    "build_and_validation_seconds": null,
+    "length_bins": {
+      "1-100": 37,
+      "101-200": 124,
+      "201-300": 27,
+      "301-400": 72,
+      "401-500": 119
+    },
+    "file_sha256": "8d2d23c8adba2aba92af2c7e38e3b468e84f2c9fad09d9b6cf264accfcc4ddf3",
+    "reuses": "B"
+  }
+}

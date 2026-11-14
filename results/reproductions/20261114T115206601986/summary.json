@@ -1,0 +1,62 @@
+{
+  "purpose": "reproduction of already observed benchmark; not a new holdout",
+  "selected_strategy_unchanged": "C",
+  "metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "question_count": 15,
+      "hit1_numerator": 1,
+      "hit3_numerator": 3,
+      "hit1": 0.06666666666666667,
+      "hit3": 0.2
+    },
+    {
+      "strategy": "A",
+      "split": "test",
+      "question_count": 5,
+      "hit1_numerator": 1,
+      "hit3_numerator": 3,
+      "hit1": 0.2,
+      "hit3": 0.6
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "question_count": 15,
+      "hit1_numerator": 2,
+      "hit3_numerator": 5,
+      "hit1": 0.13333333333333333,
+      "hit3": 0.3333333333333333
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "question_count": 5,
+      "hit1_numerator": 2,
+      "hit3_numerator": 4,
+      "hit1": 0.4,
+      "hit3": 0.8
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "question_count": 15,
+      "hit1_numerator": 3,
+      "hit3_numerator": 6,
+      "hit1": 0.2,
+      "hit3": 0.4
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "question_count": 5,
+      "hit1_numerator": 3,
+      "hit3_numerator": 4,
+      "hit1": 0.6,
+      "hit3": 0.8
+    }
+  ],
+  "matches_original_metrics": true,
+  "runner_sha256": "1eb9ef35b72f0df3dc8d9dd0d5edf53842bfe761f671ff1ed8d659ef4b897ab6"
+}

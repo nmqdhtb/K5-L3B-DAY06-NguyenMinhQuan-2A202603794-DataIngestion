@@ -1,0 +1,1202 @@
+[
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 1,
+      "character_offset": 23,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "3be78db8625d5c888cace165d6b2a4c756f1a98db7bd14314f117e7d4335d615",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 1,
+      "text": "Truyện Kiều (trọn bộ)\n\n1. Trăm năm trong cõi người ta,\n2. Chữ tài chữ mệnh khéo là ghét nhau.\n3. Trải qua một cuộc bể dâu,\n4. Những điều trông thấy mà đau đớn lòng.\n5. Lạ gì bỉ sắc tư phong,\n6. Trời xanh quen thói má hồng đánh ghen.",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 249,
+        "normalization_replacements": 2,
+        "normalized_character_count": 232,
+        "verse_start": 1,
+        "verse_end": 6,
+        "char_start": 0,
+        "char_end": 232,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Đủ sáu câu mở đầu, trình bày trọn ý về tài, mệnh và biến đổi cuộc đời.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Đủ sáu câu mở đầu, trình bày trọn ý về tài, mệnh và biến đổi cuộc đời.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 2,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "3379cb258aea9d530baaa452052118e8c76dec40dde1cbeb9aeee8b83aecc666",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 2,
+      "text": "7. Cảo thơm lần giở trước đèn,\n8. Phong tình có lục còn truyền sử xanh.\n9. Rằng năm Gia Tĩnh triều Minh,\n10. Bốn phương phẳng lặng, hai kinh vững vàng.\n\n11. Có nhà viên ngoại họ Vương,\n12. Gia tư nghĩ cũng thường thường bực trung.\n13. Một trai con thứ rốt lòng,\n14. Vương Quan là chữ, nối dòng nho gia.\n15. Đầu lòng hai ả tố nga,\n16. Thúy Kiều là chị, em là Thúy Vân.\n17. Mai cốt cách, tuyết tinh thần,\n18. Một người một vẻ, mười phân vẹn mười.\n19. Vân xem trang trọng khác vời,\n20. Khuôn trăng đầy đ",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 860,
+        "normalization_replacements": 14,
+        "normalized_character_count": 825,
+        "verse_start": 7,
+        "verse_end": 28,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Có bối cảnh triều Minh và gia đình họ Vương, nhưng cắt giữa từ ở câu tả Thúy Vân: “Khuôn trăng đầy đ”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Có bối cảnh triều Minh và gia đình họ Vương, nhưng cắt giữa từ ở câu tả Thúy Vân: “Khuôn trăng đầy đ”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 3,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "c3067c886a050b56cd747d6034c38b12d5166cb6d1e34c6181733104938b8da6",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 3,
+      "text": "29. Thông minh vốn sẵn tư trời,\n30. Pha nghề thi họa, đủ mùi ca ngâm.\n\n31. Cung thương làu bậc ngũ âm,\n32. Nghề riêng ăn đứt Hồ cầm một trương.\n33. Khúc nhà tay lựa nên chương,\n34. Một thiên bạc mệnh, lại càng não nhân.\n35. Phong lưu rất mực hồng quần,\n36. Xuân xanh sấp xỉ tới tuần cập kê\n37. Êm đềm trướng rủ màn che,\n38. Tường đông ong bướm đi về mặc ai.\n39. Ngày xuân con én đưa thoi,\n40. Thiều quang chín chục đã ngoài sáu mươi.\n\n41. Cỏ non xanh tận chân trời,\n42. Cành lê trắng điểm một vài bôn",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 818,
+        "normalization_replacements": 13,
+        "normalized_character_count": 784,
+        "verse_start": 29,
+        "verse_end": 50,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Đoạn tả tài sắc thiếu tên chủ thể từ trang trước và cắt giữa từ ở câu tả cành lê: “một vài bôn”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Đoạn tả tài sắc thiếu tên chủ thể từ trang trước và cắt giữa từ ở câu tả cành lê: “một vài bôn”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 4,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "fc792960a005c1d73aaf60067f46a7217a6012f359721bbf8fbb3dc6bd01c46d",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 4,
+      "text": "51. Tà tà bóng ngả về tây,\n52. Chị em thơ thẩn dan tay ra về.\n53. Bước dần theo ngọn tiểu khê,\n54. Lần xem phong cảnh có bề thanh thanh.\n55. Nao nao dòng nước uốn quanh,\n56. Dịp cầu nho nhỏ cuối ghềnh bắc ngang.\n57. Sè sè nấm đất bên đàng,\n58. Dàu dàu ngọn cỏ nửa vàng nửa xanh.\n59. Rằng: Sao trong tiết thanh minh,\n60. Mà đây hương khói vắng tanh thế mà?\n\n61. Vương Quan mới dẫn gần xa:\n62. Đạm Tiên nàng ấy xưa là ca nhi.\n63. Nổi danh tài sắc một thì,\n64. Xôn xao ngoài cửa hiếm gì yến anh.\n65. Kiế",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 789,
+        "normalization_replacements": 9,
+        "normalized_character_count": 754,
+        "verse_start": 51,
+        "verse_end": 71,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Hiểu cảnh ra về, gặp mộ và tên Đạm Tiên; cuối chunk cắt câu 65 ngay ở “Kiế”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Hiểu cảnh ra về, gặp mộ và tên Đạm Tiên; cuối chunk cắt câu 65 ngay ở “Kiế”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 5,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "2399b88d01e901b524481f3dc8a1e22a32808c4a2a16a89038db651e68e5cac4",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 5,
+      "text": "72. Dấu xe ngựa đã rêu lờ mờ xanh.\n73. Khóc than khôn xiết sự tình,\n74. Khéo vô duyên ấy là mình với ta.\n75. Đã không duyên trước chăng mà,\n76. Thì chi chút ước gọi là duyên sau.\n77. Sắm xanh nếp tử xe trâu\n78. Vùi nông một nấm mặc dầu cỏ hoa.\n79. Trải bao thỏ lặn ác tà,\n\n80. ấy mồ vô chủ, ai mà viếng thăm!\n81. Lòng đâu sẵn mối thương tâm,\n82. Thoắt nghe Kiều đã đầm đầm châu sa.\n83. Đau đớn thay phận đàn bà!\n84. Lời rằng bạc mệnh cũng là lời chung.\n85. Phũ phàng chi bấy hoá công,\n86. Ngày xanh m",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 813,
+        "normalization_replacements": 10,
+        "normalized_character_count": 780,
+        "verse_start": 72,
+        "verse_end": 93,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Hiểu một phần lời thương tiếc và phản ứng của Kiều; đầu đoạn nối trang trước, cuối cắt “Ngày xanh m”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Hiểu một phần lời thương tiếc và phản ứng của Kiều; đầu đoạn nối trang trước, cuối cắt “Ngày xanh m”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 6,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "93d730380e70021aad1d1d08a4414b74cabeae652758f56777b41c80d4299a30",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 6,
+      "text": "94. Họa là người dưới suối vàng biết cho.\n95. Lầm rầm khấn khứa nhỏ to,\n96. Sụp ngồi vài gật trước mồ bước ra.\n97. Một vùng cỏ áy bóng tà,\n98. Gió hiu hiu thổi một vài bông lau.\n99. Rút trâm sẵn giắt mái đầu,\n100. Vạch da cây vịnh bốn câu ba vần.\n\nLại càng mê mẩn tâm thần\nLại càng đứng lặng tần ngần chẳng ra.\nLại càng ủ dột nét hoa,\nSầu tuôn đứt nối, châu sa vắn dài.\n\n105.\nVân rằng: Chị cũng nực cười,\nKhéo dư nước mắt khóc người đời xưa.\nRằng: Hồng nhan tự thuở xưa,\nCái điều bạc mệnh có chừa ai ",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 668,
+        "normalization_replacements": 12,
+        "normalized_character_count": 634,
+        "verse_start": 94,
+        "verse_end": 112,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Có cảnh khấn mộ và lời Thúy Vân nhưng thiếu chủ thể ở đầu; câu hỏi về bạc mệnh bị cắt trước chữ “đâu”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Có cảnh khấn mộ và lời Thúy Vân nhưng thiếu chủ thể ở đầu; câu hỏi về bạc mệnh bị cắt trước chữ “đâu”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 7,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "19645f6b8ba3216542d62b7d253339806e2cdf7fcd4710a7f721d97fbb5bb5cd",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 7,
+      "text": "ở đây âm khí nặng nề,\nBóng chiều đã ngả dậm về còn xa.\n\n115.\nKiều rằng: Những đấng tài hoa,\nThác là thể phách, còn là tinh anh,\nDễ hay tình lại gặp tình,\nChờ xem ắt thấy hiển linh bây giờ.\nMột lời nói chửa kịp thưa,\n\n120.\nThoắt đâu trận gió cuốn cờ đến ngay.\nào ào đổ lộc rung cây,\nở trong dường có hương bay ít nhiều.\nĐè chừng ngọn gió lần theo,\nDấu giày từng bước in rêu rành rành.\n\n125.\nMắt nhìn ai nấy đều kinh,\nNàng rằng: Này thực tinh thành chẳng xa.\nHữu tình ta lại gặp ta,\nChớ nề u hiển mới l",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 607,
+        "normalization_replacements": 4,
+        "normalized_character_count": 572,
+        "verse_start": 113,
+        "verse_end": 130,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Có lời Kiều và dấu hiệu linh ứng; cuối cắt giữa câu “Chớ nề u hiển mới l”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Có lời Kiều và dấu hiệu linh ứng; cuối cắt giữa câu “Chớ nề u hiển mới l”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 8,
+      "character_offset": 5,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "48113a3ae6380522662c40025b00133998ad24e9ba12559c48dd9c8e7b2ec076",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 8,
+      "text": "130.\nLòng thơ lai láng bồi hồi,\nGốc cây lại vạch một bài cổ thi.\nDùng dằng nửa ở nửa về,\nNhạc vàng đâu đã tiếng nghe gần gần.\n\n135.\nTrông chừng thấy một văn nhân,\nLỏng buông tay khấu bước lần dặm băng.\nđề huề lưng túi gió trăng,\nSau chân theo một vài thằng con con.\nTuyết in sắc ngựa câu giòn,\n\n140.\nCỏ pha màu áo nhuộm non da trời.\nNẻo xa mới tỏ mặt người,\nKhách đà xuống ngựa tới nơi tự tình.\nHài văn lần bước dặm xanh,\nMột vùng như thể cây quỳnh cành dao.\n\n145.\nChàng Vương quen mặt ra chào,\nHai K",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 563,
+        "normalization_replacements": 7,
+        "normalized_character_count": 526,
+        "verse_start": 131,
+        "verse_end": 146,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Tả người văn nhân đi tới có thể hiểu một phần; đầu còn thiếu chủ thể và cuối cắt “Hai K”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Tả người văn nhân đi tới có thể hiểu một phần; đầu còn thiếu chủ thể và cuối cắt “Hai K”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 9,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "c412747d0c672365888459543a547d5a9c88bc4f39b8fdb6284f68e42956abf6",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 9,
+      "text": "Nguyên người quanh quất đâu xa,\nHọ Kim tên Trọng vốn nhà trâm anh.\nNền phú hậu, bậc tài danh,\n\n150.\nVăn chương nết đất, thông minh tính trời.\nPhong tư tài mạo tót vời,\nVào trong phong nhã, ra ngoài hào hoa.\nChung quanh vẫn đất nước nhà,\nVới Vương Quan trước vẫn là đồng thân.\n\n155.\nVẫn nghe thơm nức hương lân,\nMột nền đồng Tước khoá xuân hai Kiều.\nNước non cách mấy buồng thêu,\nNhững là trộm nhớ thầm yêu chốc mòng.\nMay thay giải cấu tương phùng,\n\n160.\nGặp tuần đố lá thoả lòng tìm hoa.\nBóng hồng nh",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 649,
+        "normalization_replacements": 12,
+        "normalized_character_count": 613,
+        "verse_start": 147,
+        "verse_end": 164,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giới thiệu Kim Trọng rõ nhưng cảnh gặp gỡ ở cuối bị cắt giữa từ “Bóng hồng nh”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giới thiệu Kim Trọng rõ nhưng cảnh gặp gỡ ở cuối bị cắt giữa từ “Bóng hồng nh”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "A",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 10,
+      "character_offset": 5,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "20f010b195e3dc5b8d5d5888e34ad975c7b60804dfebb65b6e595e438e799b64",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 10,
+      "text": "165.\nChập chờn cơn tỉnh cơn mê.\nRốn ngồi chẳng tiện, dứt về chỉn khôn.\nBóng tà như giục cơn buồn,\nKhách đà lên ngựa, người còn nghé theo.\nDưới cầu nước chảy trong veo,\n\n170.\nBên cầu tơ liễu bóng chiều thướt tha.\nKiều từ trở gót trướng hoa,\nMặt trời gác núi chiêng đà thu không.\nGương nga chênh chếch dòm song,\nVàng gieo ngấn nước, cây lồng bóng sân.\n\n175.\nHải đường lả ngọn đông lân,\nGiọt sương gieo nặng cành xuân la đà.\nMột mình lặng ngắm bóng nga,\nRộn đường gần với nỗi xa bời bời:\nNgười mà đến th",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 585,
+        "normalization_replacements": 12,
+        "normalized_character_count": 549,
+        "verse_start": 165,
+        "verse_end": 180,
+        "char_start": 0,
+        "char_end": 500,
+        "chunking": {
+          "method": "fixed",
+          "size": 500,
+          "overlap": 50
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Có cảnh chia tay và Kiều về nhà; đầu thiếu chủ thể, cuối cắt ý “Người mà đến th”.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Có cảnh chia tay và Kiều về nhà; đầu thiếu chủ thể, cuối cắt ý “Người mà đến th”.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 1,
+      "character_offset": 23,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "a0b0f77fe65d40a4f8b49f3f49c497ce3045be28de23b74a89d601335f3b0a5f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 1,
+      "text": "Truyện Kiều (trọn bộ)\n\n1. Trăm năm trong cõi người ta,\n2. Chữ tài chữ mệnh khéo là ghét nhau.\n3. Trải qua một cuộc bể dâu,\n4. Những điều trông thấy mà đau đớn lòng.\n5. Lạ gì bỉ sắc tư phong,\n6. Trời xanh quen thói má hồng đánh ghen.",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 249,
+        "normalization_replacements": 2,
+        "normalized_character_count": 232,
+        "verse_start": 1,
+        "verse_end": 6,
+        "char_start": 0,
+        "char_end": 232,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Đủ sáu câu mở đầu, trình bày trọn ý về tài, mệnh và biến đổi cuộc đời.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Đủ sáu câu mở đầu, trình bày trọn ý về tài, mệnh và biến đổi cuộc đời.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 2,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "3730d3a0e02667f6208083eb3f7fc51fa2012a45e186a8e9dcb028f6554aa317",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 2,
+      "text": "7. Cảo thơm lần giở trước đèn,\n8. Phong tình có lục còn truyền sử xanh.\n9. Rằng năm Gia Tĩnh triều Minh,\n10. Bốn phương phẳng lặng, hai kinh vững vàng.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 860,
+        "normalization_replacements": 14,
+        "normalized_character_count": 825,
+        "verse_start": 7,
+        "verse_end": 28,
+        "char_start": 0,
+        "char_end": 153,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Trọn bốn câu mở cảnh và xác định thời Gia Tĩnh triều Minh; không cắt câu hay ý đang triển khai.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Trọn bốn câu mở cảnh và xác định thời Gia Tĩnh triều Minh; không cắt câu hay ý đang triển khai.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 3,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "e08f820d3831459076f8bf2cc8a4562518fe1768b23376657c9234b7819bd5bc",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 3,
+      "text": "29. Thông minh vốn sẵn tư trời,\n30. Pha nghề thi họa, đủ mùi ca ngâm.\n\n31. Cung thương làu bậc ngũ âm,\n32. Nghề riêng ăn đứt Hồ cầm một trương.\n33. Khúc nhà tay lựa nên chương,\n34. Một thiên bạc mệnh, lại càng não nhân.\n35. Phong lưu rất mực hồng quần,\n36. Xuân xanh sấp xỉ tới tuần cập kê\n37. Êm đềm trướng rủ màn che,\n38. Tường đông ong bướm đi về mặc ai.\n39. Ngày xuân con én đưa thoi,\n40. Thiều quang chín chục đã ngoài sáu mươi.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 818,
+        "normalization_replacements": 13,
+        "normalized_character_count": 784,
+        "verse_start": 29,
+        "verse_end": 50,
+        "char_start": 0,
+        "char_end": 435,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ nguyên các dòng thơ nhưng đoạn tả tài và tuổi không nêu rõ chủ thể; phải xem trang trước để biết đối tượng.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ nguyên các dòng thơ nhưng đoạn tả tài và tuổi không nêu rõ chủ thể; phải xem trang trước để biết đối tượng.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 4,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "1271e12173b158cd1115c33aca9468e72080d2dd94016c5dde048b6067ebff6f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 4,
+      "text": "51. Tà tà bóng ngả về tây,\n52. Chị em thơ thẩn dan tay ra về.\n53. Bước dần theo ngọn tiểu khê,\n54. Lần xem phong cảnh có bề thanh thanh.\n55. Nao nao dòng nước uốn quanh,\n56. Dịp cầu nho nhỏ cuối ghềnh bắc ngang.\n57. Sè sè nấm đất bên đàng,\n58. Dàu dàu ngọn cỏ nửa vàng nửa xanh.\n59. Rằng: Sao trong tiết thanh minh,\n60. Mà đây hương khói vắng tanh thế mà?\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 789,
+        "normalization_replacements": 9,
+        "normalized_character_count": 754,
+        "verse_start": 51,
+        "verse_end": 71,
+        "char_start": 0,
+        "char_end": 357,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Giữ trọn cảnh chị em ra về, gặp mộ và câu hỏi về hương khói; tự hiểu được tình huống dù lời giải thích nằm đoạn sau.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Giữ trọn cảnh chị em ra về, gặp mộ và câu hỏi về hương khói; tự hiểu được tình huống dù lời giải thích nằm đoạn sau.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 5,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "60aa7920ea75c520d6c4c34eed3e4d24777657b96933fe4408274ed5d6f2c5e5",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 5,
+      "text": "72. Dấu xe ngựa đã rêu lờ mờ xanh.\n73. Khóc than khôn xiết sự tình,\n74. Khéo vô duyên ấy là mình với ta.\n75. Đã không duyên trước chăng mà,\n76. Thì chi chút ước gọi là duyên sau.\n77. Sắm xanh nếp tử xe trâu\n78. Vùi nông một nấm mặc dầu cỏ hoa.\n79. Trải bao thỏ lặn ác tà,\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 813,
+        "normalization_replacements": 10,
+        "normalized_character_count": 780,
+        "verse_start": 72,
+        "verse_end": 93,
+        "char_start": 0,
+        "char_end": 273,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Bắt đầu giữa lời kể tang thương và kết ở “Trải bao thỏ lặn ác tà,” nên vẫn thiếu ngữ cảnh/ý tiếp theo dù không cắt từ.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Bắt đầu giữa lời kể tang thương và kết ở “Trải bao thỏ lặn ác tà,” nên vẫn thiếu ngữ cảnh/ý tiếp theo dù không cắt từ.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 6,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "331095ddfbca06ab9fb1268a69f91d20339a1aaac677e31eee3b5fa83d1fb574",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 6,
+      "text": "94. Họa là người dưới suối vàng biết cho.\n95. Lầm rầm khấn khứa nhỏ to,\n96. Sụp ngồi vài gật trước mồ bước ra.\n97. Một vùng cỏ áy bóng tà,\n98. Gió hiu hiu thổi một vài bông lau.\n99. Rút trâm sẵn giắt mái đầu,\n100. Vạch da cây vịnh bốn câu ba vần.\n\nLại càng mê mẩn tâm thần\nLại càng đứng lặng tần ngần chẳng ra.\nLại càng ủ dột nét hoa,\nSầu tuôn đứt nối, châu sa vắn dài.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 668,
+        "normalization_replacements": 12,
+        "normalized_character_count": 634,
+        "verse_start": 94,
+        "verse_end": 112,
+        "char_start": 0,
+        "char_end": 371,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ trọn dòng nhưng “người dưới suối vàng”, hành động khấn mộ và chủ thể của “lại càng” phụ thuộc trang trước.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ trọn dòng nhưng “người dưới suối vàng”, hành động khấn mộ và chủ thể của “lại càng” phụ thuộc trang trước.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 7,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "1a3eff4c6eb6cd210b0222a479534a6329937a276fd08dedeb1ec93b571fe3d0",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 7,
+      "text": "ở đây âm khí nặng nề,\nBóng chiều đã ngả dậm về còn xa.\n\n115.\nKiều rằng: Những đấng tài hoa,\nThác là thể phách, còn là tinh anh,\nDễ hay tình lại gặp tình,\nChờ xem ắt thấy hiển linh bây giờ.\nMột lời nói chửa kịp thưa,\n\n120.\nThoắt đâu trận gió cuốn cờ đến ngay.\nào ào đổ lộc rung cây,\nở trong dường có hương bay ít nhiều.\nĐè chừng ngọn gió lần theo,\nDấu giày từng bước in rêu rành rành.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 607,
+        "normalization_replacements": 4,
+        "normalized_character_count": 572,
+        "verse_start": 113,
+        "verse_end": 130,
+        "char_start": 0,
+        "char_end": 385,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Có tên Kiều, lời nói về linh anh rồi các dấu hiệu gió/hương/dấu giày, đủ hiểu chuỗi sự việc chính.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Có tên Kiều, lời nói về linh anh rồi các dấu hiệu gió/hương/dấu giày, đủ hiểu chuỗi sự việc chính.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 8,
+      "character_offset": 5,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "355cd32a250a7fa79fc7fa9835b187ce366ae0d5b6f30e2b9f480bc7c5c999d8",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 8,
+      "text": "130.\nLòng thơ lai láng bồi hồi,\nGốc cây lại vạch một bài cổ thi.\nDùng dằng nửa ở nửa về,\nNhạc vàng đâu đã tiếng nghe gần gần.\n\n135.\nTrông chừng thấy một văn nhân,\nLỏng buông tay khấu bước lần dặm băng.\nđề huề lưng túi gió trăng,\nSau chân theo một vài thằng con con.\nTuyết in sắc ngựa câu giòn,\n\n140.\nCỏ pha màu áo nhuộm non da trời.\nNẻo xa mới tỏ mặt người,\nKhách đà xuống ngựa tới nơi tự tình.\nHài văn lần bước dặm xanh,\nMột vùng như thể cây quỳnh cành dao.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 563,
+        "normalization_replacements": 7,
+        "normalized_character_count": 526,
+        "verse_start": 131,
+        "verse_end": 146,
+        "char_start": 0,
+        "char_end": 460,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ trọn cảnh văn nhân xuất hiện, nhưng hai câu đầu nói việc vạch thơ không nêu chủ thể, cần ngữ cảnh trước.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ trọn cảnh văn nhân xuất hiện, nhưng hai câu đầu nói việc vạch thơ không nêu chủ thể, cần ngữ cảnh trước.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 9,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "ea0fd12246cf01706a61591dfdd0a4c9cf6db3757097ae1d1cff3f642fa25d46",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 9,
+      "text": "Nguyên người quanh quất đâu xa,\nHọ Kim tên Trọng vốn nhà trâm anh.\nNền phú hậu, bậc tài danh,\n\n150.\nVăn chương nết đất, thông minh tính trời.\nPhong tư tài mạo tót vời,\nVào trong phong nhã, ra ngoài hào hoa.\nChung quanh vẫn đất nước nhà,\nVới Vương Quan trước vẫn là đồng thân.\n\n155.\nVẫn nghe thơm nức hương lân,\nMột nền đồng Tước khoá xuân hai Kiều.\nNước non cách mấy buồng thêu,\nNhững là trộm nhớ thầm yêu chốc mòng.\nMay thay giải cấu tương phùng,\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 649,
+        "normalization_replacements": 12,
+        "normalized_character_count": 613,
+        "verse_start": 147,
+        "verse_end": 164,
+        "char_start": 0,
+        "char_end": 449,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giới thiệu Kim Trọng và sự tương tư rõ, nhưng kết ở “May thay giải cấu tương phùng,” để dở ý gặp gỡ.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giới thiệu Kim Trọng và sự tương tư rõ, nhưng kết ở “May thay giải cấu tương phùng,” để dở ý gặp gỡ.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "B",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 10,
+      "character_offset": 5,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "7259ba751aad98103bbbba2a98ccfdb40a1620f476436389a5ba8ca9d16ae593",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 10,
+      "text": "165.\nChập chờn cơn tỉnh cơn mê.\nRốn ngồi chẳng tiện, dứt về chỉn khôn.\nBóng tà như giục cơn buồn,\nKhách đà lên ngựa, người còn nghé theo.\nDưới cầu nước chảy trong veo,\n\n170.\nBên cầu tơ liễu bóng chiều thướt tha.\nKiều từ trở gót trướng hoa,\nMặt trời gác núi chiêng đà thu không.\nGương nga chênh chếch dòm song,\nVàng gieo ngấn nước, cây lồng bóng sân.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 585,
+        "normalization_replacements": 12,
+        "normalized_character_count": 549,
+        "verse_start": 165,
+        "verse_end": 180,
+        "char_start": 0,
+        "char_end": 351,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ trọn dòng và cảnh Kiều về nhà; phần mở “Chập chờn cơn tỉnh cơn mê” không nêu chủ thể/tình huống nên chưa hoàn toàn độc lập.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ trọn dòng và cảnh Kiều về nhà; phần mở “Chập chờn cơn tỉnh cơn mê” không nêu chủ thể/tình huống nên chưa hoàn toàn độc lập.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 1,
+      "character_offset": 23,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "a0b0f77fe65d40a4f8b49f3f49c497ce3045be28de23b74a89d601335f3b0a5f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 1,
+      "text": "Truyện Kiều (trọn bộ)\n\n1. Trăm năm trong cõi người ta,\n2. Chữ tài chữ mệnh khéo là ghét nhau.\n3. Trải qua một cuộc bể dâu,\n4. Những điều trông thấy mà đau đớn lòng.\n5. Lạ gì bỉ sắc tư phong,\n6. Trời xanh quen thói má hồng đánh ghen.",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 249,
+        "normalization_replacements": 2,
+        "normalized_character_count": 232,
+        "verse_start": 1,
+        "verse_end": 6,
+        "char_start": 0,
+        "char_end": 232,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Đủ sáu câu mở đầu, trình bày trọn ý về tài, mệnh và biến đổi cuộc đời. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Đủ sáu câu mở đầu, trình bày trọn ý về tài, mệnh và biến đổi cuộc đời. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 2,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "3730d3a0e02667f6208083eb3f7fc51fa2012a45e186a8e9dcb028f6554aa317",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 2,
+      "text": "7. Cảo thơm lần giở trước đèn,\n8. Phong tình có lục còn truyền sử xanh.\n9. Rằng năm Gia Tĩnh triều Minh,\n10. Bốn phương phẳng lặng, hai kinh vững vàng.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 860,
+        "normalization_replacements": 14,
+        "normalized_character_count": 825,
+        "verse_start": 7,
+        "verse_end": 28,
+        "char_start": 0,
+        "char_end": 153,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Trọn bốn câu mở cảnh và xác định thời Gia Tĩnh triều Minh; không cắt câu hay ý đang triển khai. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Trọn bốn câu mở cảnh và xác định thời Gia Tĩnh triều Minh; không cắt câu hay ý đang triển khai. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 3,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "e08f820d3831459076f8bf2cc8a4562518fe1768b23376657c9234b7819bd5bc",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 3,
+      "text": "29. Thông minh vốn sẵn tư trời,\n30. Pha nghề thi họa, đủ mùi ca ngâm.\n\n31. Cung thương làu bậc ngũ âm,\n32. Nghề riêng ăn đứt Hồ cầm một trương.\n33. Khúc nhà tay lựa nên chương,\n34. Một thiên bạc mệnh, lại càng não nhân.\n35. Phong lưu rất mực hồng quần,\n36. Xuân xanh sấp xỉ tới tuần cập kê\n37. Êm đềm trướng rủ màn che,\n38. Tường đông ong bướm đi về mặc ai.\n39. Ngày xuân con én đưa thoi,\n40. Thiều quang chín chục đã ngoài sáu mươi.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 818,
+        "normalization_replacements": 13,
+        "normalized_character_count": 784,
+        "verse_start": 29,
+        "verse_end": 50,
+        "char_start": 0,
+        "char_end": 435,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ nguyên các dòng thơ nhưng đoạn tả tài và tuổi không nêu rõ chủ thể; phải xem trang trước để biết đối tượng. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ nguyên các dòng thơ nhưng đoạn tả tài và tuổi không nêu rõ chủ thể; phải xem trang trước để biết đối tượng. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 4,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "1271e12173b158cd1115c33aca9468e72080d2dd94016c5dde048b6067ebff6f",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 4,
+      "text": "51. Tà tà bóng ngả về tây,\n52. Chị em thơ thẩn dan tay ra về.\n53. Bước dần theo ngọn tiểu khê,\n54. Lần xem phong cảnh có bề thanh thanh.\n55. Nao nao dòng nước uốn quanh,\n56. Dịp cầu nho nhỏ cuối ghềnh bắc ngang.\n57. Sè sè nấm đất bên đàng,\n58. Dàu dàu ngọn cỏ nửa vàng nửa xanh.\n59. Rằng: Sao trong tiết thanh minh,\n60. Mà đây hương khói vắng tanh thế mà?\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 789,
+        "normalization_replacements": 9,
+        "normalized_character_count": 754,
+        "verse_start": 51,
+        "verse_end": 71,
+        "char_start": 0,
+        "char_end": 357,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Giữ trọn cảnh chị em ra về, gặp mộ và câu hỏi về hương khói; tự hiểu được tình huống dù lời giải thích nằm đoạn sau. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Giữ trọn cảnh chị em ra về, gặp mộ và câu hỏi về hương khói; tự hiểu được tình huống dù lời giải thích nằm đoạn sau. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 5,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "60aa7920ea75c520d6c4c34eed3e4d24777657b96933fe4408274ed5d6f2c5e5",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 5,
+      "text": "72. Dấu xe ngựa đã rêu lờ mờ xanh.\n73. Khóc than khôn xiết sự tình,\n74. Khéo vô duyên ấy là mình với ta.\n75. Đã không duyên trước chăng mà,\n76. Thì chi chút ước gọi là duyên sau.\n77. Sắm xanh nếp tử xe trâu\n78. Vùi nông một nấm mặc dầu cỏ hoa.\n79. Trải bao thỏ lặn ác tà,\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 813,
+        "normalization_replacements": 10,
+        "normalized_character_count": 780,
+        "verse_start": 72,
+        "verse_end": 93,
+        "char_start": 0,
+        "char_end": 273,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Bắt đầu giữa lời kể tang thương và kết ở “Trải bao thỏ lặn ác tà,” nên vẫn thiếu ngữ cảnh/ý tiếp theo dù không cắt từ. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Bắt đầu giữa lời kể tang thương và kết ở “Trải bao thỏ lặn ác tà,” nên vẫn thiếu ngữ cảnh/ý tiếp theo dù không cắt từ. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 6,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "331095ddfbca06ab9fb1268a69f91d20339a1aaac677e31eee3b5fa83d1fb574",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 6,
+      "text": "94. Họa là người dưới suối vàng biết cho.\n95. Lầm rầm khấn khứa nhỏ to,\n96. Sụp ngồi vài gật trước mồ bước ra.\n97. Một vùng cỏ áy bóng tà,\n98. Gió hiu hiu thổi một vài bông lau.\n99. Rút trâm sẵn giắt mái đầu,\n100. Vạch da cây vịnh bốn câu ba vần.\n\nLại càng mê mẩn tâm thần\nLại càng đứng lặng tần ngần chẳng ra.\nLại càng ủ dột nét hoa,\nSầu tuôn đứt nối, châu sa vắn dài.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 668,
+        "normalization_replacements": 12,
+        "normalized_character_count": 634,
+        "verse_start": 94,
+        "verse_end": 112,
+        "char_start": 0,
+        "char_end": 371,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ trọn dòng nhưng “người dưới suối vàng”, hành động khấn mộ và chủ thể của “lại càng” phụ thuộc trang trước. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ trọn dòng nhưng “người dưới suối vàng”, hành động khấn mộ và chủ thể của “lại càng” phụ thuộc trang trước. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 7,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "1a3eff4c6eb6cd210b0222a479534a6329937a276fd08dedeb1ec93b571fe3d0",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 7,
+      "text": "ở đây âm khí nặng nề,\nBóng chiều đã ngả dậm về còn xa.\n\n115.\nKiều rằng: Những đấng tài hoa,\nThác là thể phách, còn là tinh anh,\nDễ hay tình lại gặp tình,\nChờ xem ắt thấy hiển linh bây giờ.\nMột lời nói chửa kịp thưa,\n\n120.\nThoắt đâu trận gió cuốn cờ đến ngay.\nào ào đổ lộc rung cây,\nở trong dường có hương bay ít nhiều.\nĐè chừng ngọn gió lần theo,\nDấu giày từng bước in rêu rành rành.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 607,
+        "normalization_replacements": 4,
+        "normalized_character_count": 572,
+        "verse_start": 113,
+        "verse_end": 130,
+        "char_start": 0,
+        "char_end": 385,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 2,
+    "reason": "Có tên Kiều, lời nói về linh anh rồi các dấu hiệu gió/hương/dấu giày, đủ hiểu chuỗi sự việc chính. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 2,
+    "ai_reason": "Có tên Kiều, lời nói về linh anh rồi các dấu hiệu gió/hương/dấu giày, đủ hiểu chuỗi sự việc chính. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 8,
+      "character_offset": 5,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "355cd32a250a7fa79fc7fa9835b187ce366ae0d5b6f30e2b9f480bc7c5c999d8",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 8,
+      "text": "130.\nLòng thơ lai láng bồi hồi,\nGốc cây lại vạch một bài cổ thi.\nDùng dằng nửa ở nửa về,\nNhạc vàng đâu đã tiếng nghe gần gần.\n\n135.\nTrông chừng thấy một văn nhân,\nLỏng buông tay khấu bước lần dặm băng.\nđề huề lưng túi gió trăng,\nSau chân theo một vài thằng con con.\nTuyết in sắc ngựa câu giòn,\n\n140.\nCỏ pha màu áo nhuộm non da trời.\nNẻo xa mới tỏ mặt người,\nKhách đà xuống ngựa tới nơi tự tình.\nHài văn lần bước dặm xanh,\nMột vùng như thể cây quỳnh cành dao.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 563,
+        "normalization_replacements": 7,
+        "normalized_character_count": 526,
+        "verse_start": 131,
+        "verse_end": 146,
+        "char_start": 0,
+        "char_end": 460,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ trọn cảnh văn nhân xuất hiện, nhưng hai câu đầu nói việc vạch thơ không nêu chủ thể, cần ngữ cảnh trước. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ trọn cảnh văn nhân xuất hiện, nhưng hai câu đầu nói việc vạch thơ không nêu chủ thể, cần ngữ cảnh trước. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 9,
+      "character_offset": 0,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "ea0fd12246cf01706a61591dfdd0a4c9cf6db3757097ae1d1cff3f642fa25d46",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 9,
+      "text": "Nguyên người quanh quất đâu xa,\nHọ Kim tên Trọng vốn nhà trâm anh.\nNền phú hậu, bậc tài danh,\n\n150.\nVăn chương nết đất, thông minh tính trời.\nPhong tư tài mạo tót vời,\nVào trong phong nhã, ra ngoài hào hoa.\nChung quanh vẫn đất nước nhà,\nVới Vương Quan trước vẫn là đồng thân.\n\n155.\nVẫn nghe thơm nức hương lân,\nMột nền đồng Tước khoá xuân hai Kiều.\nNước non cách mấy buồng thêu,\nNhững là trộm nhớ thầm yêu chốc mòng.\nMay thay giải cấu tương phùng,\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 649,
+        "normalization_replacements": 12,
+        "normalized_character_count": 613,
+        "verse_start": 147,
+        "verse_end": 164,
+        "char_start": 0,
+        "char_end": 449,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giới thiệu Kim Trọng và sự tương tư rõ, nhưng kết ở “May thay giải cấu tương phùng,” để dở ý gặp gỡ. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giới thiệu Kim Trọng và sự tương tư rõ, nhưng kết ở “May thay giải cấu tương phùng,” để dở ý gặp gỡ. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  },
+  {
+    "strategy": "C",
+    "source_position": {
+      "document_id": "truyen-kieu-nguyen-du",
+      "page": 10,
+      "character_offset": 5,
+      "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+    },
+    "chunk": {
+      "chunk_id": "7259ba751aad98103bbbba2a98ccfdb40a1620f476436389a5ba8ca9d16ae593",
+      "document_id": "truyen-kieu-nguyen-du",
+      "source": "https://kholuu.wordpress.com/wp-content/uploads/2015/07/truyen_kieu_tron_bo.pdf",
+      "page": 10,
+      "text": "165.\nChập chờn cơn tỉnh cơn mê.\nRốn ngồi chẳng tiện, dứt về chỉn khôn.\nBóng tà như giục cơn buồn,\nKhách đà lên ngựa, người còn nghé theo.\nDưới cầu nước chảy trong veo,\n\n170.\nBên cầu tơ liễu bóng chiều thướt tha.\nKiều từ trở gót trướng hoa,\nMặt trời gác núi chiêng đà thu không.\nGương nga chênh chếch dòm song,\nVàng gieo ngấn nước, cây lồng bóng sân.\n\n",
+      "metadata": {
+        "extraction_status": "ok",
+        "raw_character_count": 585,
+        "normalization_replacements": 12,
+        "normalized_character_count": 549,
+        "verse_start": 165,
+        "verse_end": 180,
+        "char_start": 0,
+        "char_end": 351,
+        "chunking": {
+          "method": "paragraph",
+          "max_size": 500,
+          "overlap": 0
+        }
+      }
+    },
+    "score": 1,
+    "reason": "Giữ trọn dòng và cảnh Kiều về nhà; phần mở “Chập chờn cơn tỉnh cơn mê” không nêu chủ thể/tình huống nên chưa hoàn toàn độc lập. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "reviewer": "Học viên — xác nhận đề xuất AI trong cuộc trò chuyện",
+    "ai_proposed_score": 1,
+    "ai_reason": "Giữ trọn dòng và cảnh Kiều về nhà; phần mở “Chập chờn cơn tỉnh cơn mê” không nêu chủ thể/tình huống nên chưa hoàn toàn độc lập. C dùng đúng chunk B tại vị trí này nên dùng cùng đề xuất.",
+    "ai_reviewer": "Trợ lý AI trong cuộc trò chuyện",
+    "student_review_status": "confirmed",
+    "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+    "confirmation_method": "Student accepted AI proposals; not independent blind scoring"
+  }
+]

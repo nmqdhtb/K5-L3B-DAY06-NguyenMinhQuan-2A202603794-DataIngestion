@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "corpus_sha256": "e5c8229c586789d9d667a1ab23b739cb632597e51f58ec71a0a8781ec8738f16",
+  "strategies": {
+    "A": {
+      "chunk_file": "chunks_A.jsonl",
+      "method": "fixed",
+      "size_characters": 500,
+      "overlap_characters": 50,
+      "apply_query_filter": false
+    },
+    "B": {
+      "chunk_file": "chunks_B.jsonl",
+      "method": "paragraph",
+      "size_characters": 500,
+      "overlap_characters": 0,
+      "apply_query_filter": false
+    },
+    "C": {
+      "chunk_file": "chunks_B.jsonl",
+      "method": "paragraph",
+      "size_characters": 500,
+      "overlap_characters": 0,
+      "apply_query_filter": true
+    }
+  },
+  "embedding_model": null,
+  "vector_store": null,
+  "status": "chunking only; no retrieval metrics"
+}

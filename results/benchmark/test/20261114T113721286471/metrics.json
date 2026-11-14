@@ -1,0 +1,41 @@
+[
+  {
+    "strategy": "A",
+    "split": "test",
+    "question_count": 5,
+    "hit1_numerator": 1,
+    "hit3_numerator": 3,
+    "hit1": 0.2,
+    "hit3": 0.6,
+    "chunk_count": 377,
+    "search_seconds": 0.11238370707724243,
+    "filter_question_count": 1,
+    "filter_top3_compliant_count": 0
+  },
+  {
+    "strategy": "B",
+    "split": "test",
+    "question_count": 5,
+    "hit1_numerator": 2,
+    "hit3_numerator": 4,
+    "hit1": 0.4,
+    "hit3": 0.8,
+    "chunk_count": 379,
+    "search_seconds": 0.07243099994957447,
+    "filter_question_count": 1,
+    "filter_top3_compliant_count": 0
+  },
+  {
+    "strategy": "C",
+    "split": "test",
+    "question_count": 5,
+    "hit1_numerator": 3,
+    "hit3_numerator": 4,
+    "hit1": 0.6,
+    "hit3": 0.8,
+    "chunk_count": 379,
+    "search_seconds": 0.06308004108723253,
+    "filter_question_count": 1,
+    "filter_top3_compliant_count": 1
+  }
+]

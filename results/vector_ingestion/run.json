@@ -1,0 +1,74 @@
+{
+  "completed_at": "2026-11-14T11:26:43.127028+07:00",
+  "model": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "device": "cpu",
+    "dimensions": 384,
+    "pooling": "recursive whitespace segments within token limit; token-count-weighted mean of L2-normalized segment vectors, then L2 normalize",
+    "query_document_processing": "identical; no prefix",
+    "cache_folder": "starter/.cache/huggingface/hub",
+    "max_sequence_tokens": 128
+  },
+  "database": {
+    "schema": "day6_pipeline",
+    "postgresql_version": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector_version": "0.8.7",
+    "metric": "cosine",
+    "search": "exact; no ANN index"
+  },
+  "strategies": {
+    "A": {
+      "embedding_or_cache_seconds": 7.935890374938026,
+      "cache_hit": false,
+      "texts": 377,
+      "segments": 565,
+      "texts_split_for_token_limit": 188,
+      "content_tokens_encoded": 37961,
+      "max_content_tokens": 125,
+      "count_first": 377,
+      "count_reingested": 377,
+      "upsert_twice_and_verify_seconds": 0.4440059169428423
+    },
+    "B": {
+      "embedding_or_cache_seconds": 6.192649292061105,
+      "cache_hit": false,
+      "texts": 379,
+      "segments": 508,
+      "texts_split_for_token_limit": 129,
+      "content_tokens_encoded": 34821,
+      "max_content_tokens": 126,
+      "count_first": 379,
+      "count_reingested": 379,
+      "upsert_twice_and_verify_seconds": 0.3801783750532195
+    },
+    "C": {
+      "reuses_embeddings_from": "B",
+      "count_first": 379,
+      "count_reingested": 379,
+      "upsert_twice_and_verify_seconds": 0.5421338749583811
+    }
+  },
+  "total_seconds": 16.799773290986195,
+  "paid_api_cost_usd": 0,
+  "cost_scope": "No paid API; excludes electricity, hardware and internet",
+  "checks": {
+    "reingestion_no_duplicates": true,
+    "new_connection_persistence": true,
+    "metadata_filter_three_ranges": true,
+    "B_C_unfiltered_identical": true,
+    "obsolete_chunk_removal": true,
+    "invalid_vector_rejected_without_mutation": true,
+    "transaction_rollback": true,
+    "different_model_rejected": true
+  },
+  "packages": {
+    "sentence-transformers": "5.7.0",
+    "transformers": "5.23.0",
+    "torch": "2.15.0",
+    "numpy": "2.5.4",
+    "psycopg": "3.3.8",
+    "pypdf": "6.21.4"
+  },
+  "benchmark_run": false
+}

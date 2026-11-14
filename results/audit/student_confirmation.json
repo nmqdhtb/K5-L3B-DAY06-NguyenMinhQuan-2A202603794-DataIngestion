@@ -1,0 +1,10 @@
+{
+  "confirmed_at": "2026-11-14T11:44:06.505603+07:00",
+  "statement": "tôi xác nhận các đề xuất",
+  "scope": {
+    "coherence": 30,
+    "grounding": 15,
+    "metadata": 45
+  },
+  "method": "Chấp nhận đề xuất AI và kiểm tra metadata đã trình bày; không phải chấm độc lập/mù."
+}

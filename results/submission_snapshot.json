@@ -1,0 +1,171 @@
+{
+  "created_at": "2026-11-14T09:23:21.818082+00:00",
+  "purpose": "Submission snapshot; pipeline continues using starter/results",
+  "files": [
+    {
+      "source": "starter/results/.gitkeep",
+      "copy": "results/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "starter/results/audit/README.md",
+      "copy": "results/audit/README.md",
+      "sha256": "e02b3ad829e19e679f86067aac5d0ebd79990c2a557c40fd0e508fa89cb72b1b"
+    },
+    {
+      "source": "starter/results/audit/REVIEW.md",
+      "copy": "results/audit/REVIEW.md",
+      "sha256": "ffe69c72b4918ae80bd71c5f9656f56b61d057336628b637c69d99ef4ebb12a1"
+    },
+    {
+      "source": "starter/results/audit/coherence_review.json",
+      "copy": "results/audit/coherence_review.json",
+      "sha256": "844ec18b2f274284f342bd0f160383b1ab7a2f4354bf4310bb89b9fc83d7fb12"
+    },
+    {
+      "source": "starter/results/audit/grounding_review.json",
+      "copy": "results/audit/grounding_review.json",
+      "sha256": "c1247d058d81654888c264eb7af5729814a6803b3516000fbe6044f35f409a9e"
+    },
+    {
+      "source": "starter/results/audit/metadata_review.json",
+      "copy": "results/audit/metadata_review.json",
+      "sha256": "fe27f41ba4945bfbfb199c80e5df2edeb9a32e442f65effe53e3ab1c35110c02"
+    },
+    {
+      "source": "starter/results/audit/student_confirmation.json",
+      "copy": "results/audit/student_confirmation.json",
+      "sha256": "79d4ed0f0c9ac34a02f258414ed182bbd3001682161b77c278586c504e0d11f4"
+    },
+    {
+      "source": "starter/results/audit/summary.json",
+      "copy": "results/audit/summary.json",
+      "sha256": "cab38148ad79093baaf25c4a2246f76b8691942076c477275f0ce3abe250d14c"
+    },
+    {
+      "source": "starter/results/benchmark/README.md",
+      "copy": "results/benchmark/README.md",
+      "sha256": "2f50f37c1ce3b53b3d5bbc3e09739dd507ffd6e4f0d9e41d71e72311f3fac29e"
+    },
+    {
+      "source": "starter/results/benchmark/dev/20261114T113255829181/metrics.csv",
+      "copy": "results/benchmark/dev/20261114T113255829181/metrics.csv",
+      "sha256": "f4a534475910531bb8812eec4de78cc9dab078bfeec2def8634b8404613055b5"
+    },
+    {
+      "source": "starter/results/benchmark/dev/20261114T113255829181/metrics.json",
+      "copy": "results/benchmark/dev/20261114T113255829181/metrics.json",
+      "sha256": "e3824bd567458b0c64106a263233f042e8209bfb58261cc12e83e3df715808ed"
+    },
+    {
+      "source": "starter/results/benchmark/dev/20261114T113255829181/per_question.csv",
+      "copy": "results/benchmark/dev/20261114T113255829181/per_question.csv",
+      "sha256": "abb06491e3b8b2c94d9630a970106ec7a5828868cded5abedeb7b121a874e211"
+    },
+    {
+      "source": "starter/results/benchmark/dev/20261114T113255829181/run.json",
+      "copy": "results/benchmark/dev/20261114T113255829181/run.json",
+      "sha256": "cc52c10a42db61b387382716bebefcb34da94a29564775a68a6717b82267145d"
+    },
+    {
+      "source": "starter/results/benchmark/dev/20261114T113255829181/traces.jsonl",
+      "copy": "results/benchmark/dev/20261114T113255829181/traces.jsonl",
+      "sha256": "7a8b96ef329013504a681c826c94663e03fcd45bdcc918d308162c88564716d7"
+    },
+    {
+      "source": "starter/results/benchmark/test/20261114T113721286471/metrics.csv",
+      "copy": "results/benchmark/test/20261114T113721286471/metrics.csv",
+      "sha256": "eff3935b70053b359ea7b83d035045c6e8894ac18989734d3c8dcfcc92d30d1e"
+    },
+    {
+      "source": "starter/results/benchmark/test/20261114T113721286471/metrics.json",
+      "copy": "results/benchmark/test/20261114T113721286471/metrics.json",
+      "sha256": "fdd6b32cfd512fe84c9d68f236d7a41b458b166f1dd7d7f19925858f2f3ee23d"
+    },
+    {
+      "source": "starter/results/benchmark/test/20261114T113721286471/run.json",
+      "copy": "results/benchmark/test/20261114T113721286471/run.json",
+      "sha256": "3819109b5c6a5f304164ca3a244ec4de17e718193095964c3df035476cf36391"
+    },
+    {
+      "source": "starter/results/benchmark/test/20261114T113721286471/traces.jsonl",
+      "copy": "results/benchmark/test/20261114T113721286471/traces.jsonl",
+      "sha256": "78171b201a6eaa3a559c9b06659805c8ea6ad9d36b53dec12494ab49f77c285c"
+    },
+    {
+      "source": "starter/results/benchmark_validation.json",
+      "copy": "results/benchmark_validation.json",
+      "sha256": "a6696e39d7fed94e0001d867d6045927dabdbc02c0016d6d952c55523ed50a1f"
+    },
+    {
+      "source": "starter/results/chunking/README.md",
+      "copy": "results/chunking/README.md",
+      "sha256": "76843466c2924e06754149c0bd59b71fad7e0a048580f3e176592bc74fc243c7"
+    },
+    {
+      "source": "starter/results/chunking/chunks_A.jsonl",
+      "copy": "results/chunking/chunks_A.jsonl",
+      "sha256": "4c81a4524153d06dd3eef5b13bc5236891c8f4391fa146e277057e8d308a5c8e"
+    },
+    {
+      "source": "starter/results/chunking/chunks_B.jsonl",
+      "copy": "results/chunking/chunks_B.jsonl",
+      "sha256": "8d2d23c8adba2aba92af2c7e38e3b468e84f2c9fad09d9b6cf264accfcc4ddf3"
+    },
+    {
+      "source": "starter/results/chunking/coherence_review.json",
+      "copy": "results/chunking/coherence_review.json",
+      "sha256": "01d7fbd89f92228c85209b797bab48f77cc255a082f3d46a9d6893ccdd3b8220"
+    },
+    {
+      "source": "starter/results/chunking/config.json",
+      "copy": "results/chunking/config.json",
+      "sha256": "f0915c25fa87c826daca1c75d8e23a12ad23f1d44d62f23835e06571ce7859c2"
+    },
+    {
+      "source": "starter/results/chunking/statistics.json",
+      "copy": "results/chunking/statistics.json",
+      "sha256": "34b73f84304426ca97fabfec55292639877e09ed4ed04c78606d402c0e35df04"
+    },
+    {
+      "source": "starter/results/corpus_validation.json",
+      "copy": "results/corpus_validation.json",
+      "sha256": "4cf85d9003ab203be288e87756004e6816051152df7cdc6d8e7291363a42890a"
+    },
+    {
+      "source": "starter/results/ingestion_errors.jsonl",
+      "copy": "results/ingestion_errors.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "starter/results/reproductions/20261114T115206601986/summary.json",
+      "copy": "results/reproductions/20261114T115206601986/summary.json",
+      "sha256": "75b95c0f7a3b0208bac3715526afaac89893a971ecd406948cbb4226be594a35"
+    },
+    {
+      "source": "starter/results/reproductions/20261114T115206601986/traces.jsonl",
+      "copy": "results/reproductions/20261114T115206601986/traces.jsonl",
+      "sha256": "b831529041d9dabd7f4b30ceb83299fb28b5ccd709f4e4f8632bfcacf45e1878"
+    },
+    {
+      "source": "starter/results/vector_ingestion/README.md",
+      "copy": "results/vector_ingestion/README.md",
+      "sha256": "6f9ee50b1730605f326cf595f27816f9e4b038e18db290610394afc9eaa78713"
+    },
+    {
+      "source": "starter/results/vector_ingestion/query_smoke.json",
+      "copy": "results/vector_ingestion/query_smoke.json",
+      "sha256": "39f5ece59bbd2173a50e7764130bf434ec3f7a9669d67ebabc37e208b0647645"
+    },
+    {
+      "source": "starter/results/vector_ingestion/run.json",
+      "copy": "results/vector_ingestion/run.json",
+      "sha256": "ec42a54905d2cbbfe0e49994bd2f3feb0e6f70eedc7200f4bcb742a95208d7eb"
+    },
+    {
+      "source": "starter/results/vector_ingestion/smoke_traces.json",
+      "copy": "results/vector_ingestion/smoke_traces.json",
+      "sha256": "65fee552b6d7369c2651478ffbd887b67b264e8c766047485a03394a0ec0e57f"
+    }
+  ]
+}
