@@ -3,7 +3,7 @@
 **Học viên:** Nguyễn Minh Quân · **MSSV:** 2A202603794 · **Lớp:** L3B  
 **Chủ đề:** Truy xuất bằng chứng trong Truyện Kiều của Nguyễn Du  
 **Ngày thực nghiệm:** 14/11/2026, múi giờ Asia/Ho_Chi_Minh  
-**Repo:** [nmqdhtb/K5-L3B-Day06-NguyenMinhQuan-2A202603794-DataIngestion](https://github.com/nmqdhtb/K5-L3B-Day06-NguyenMinhQuan-2A202603794-DataIngestion)
+**Repo:** [nmqdhtb/K5-L3B-DAY06-NguyenMinhQuan-2A202603794-DataIngestion](https://github.com/nmqdhtb/K5-L3B-DAY06-NguyenMinhQuan-2A202603794-DataIngestion)
 
 ## Dữ liệu và pipeline
 
