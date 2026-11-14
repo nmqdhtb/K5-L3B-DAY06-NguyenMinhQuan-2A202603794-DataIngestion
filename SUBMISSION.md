@@ -21,20 +21,12 @@ Mẫu báo cáo: [report/individual/MSSV_HoTen.md](report/individual/MSSV_HoTen.
 
 ## Checklist
 
-- [x] Dữ liệu ≥30 trang nội dung hợp lệ, manifest ghi nguồn, quyền, số trang và quy tắc tính.
-- [x] ≥20 câu theo [BENCHMARK.md](BENCHMARK.md), có evidence đã kiểm chứng và tách tối thiểu 15 dev / 5 test trước thử nghiệm.
-- [x] Có embedding model thật và vector store hỗ trợ lưu bền vững, vector search, metadata filter; ghi phiên bản và cấu hình.
-- [x] Có ba cấu hình, một so sánh thay đúng một yếu tố; cùng model, corpus và benchmark.
-- [x] Chạy đủ và lưu trace top-3, chỉ số dev/test; ghi chi phí, model và thời gian.
-- [x] Có audit thủ công và phân tích cả 5 khía cạnh theo GUIDE; ghi giới hạn.
-- [x] Có lệnh chạy, code, manifest, experiment log và báo cáo cá nhân.
-- [x] Không có secret, dữ liệu riêng tư hoặc dữ liệu không được phép chia sẻ.
+- [ ] Dữ liệu ≥30 trang nội dung hợp lệ, manifest ghi nguồn, quyền, số trang và quy tắc tính.
+- [ ] ≥20 câu theo [BENCHMARK.md](BENCHMARK.md), có evidence đã kiểm chứng và tách tối thiểu 15 dev / 5 test trước thử nghiệm.
+- [ ] Có embedding model thật và vector store hỗ trợ lưu bền vững, vector search, metadata filter; ghi phiên bản và cấu hình.
+- [ ] Có ba cấu hình, một so sánh thay đúng một yếu tố; cùng model, corpus và benchmark.
+- [ ] Chạy đủ và lưu trace top-3, chỉ số dev/test; ghi chi phí, model và thời gian.
+- [ ] Có audit thủ công và phân tích cả 5 khía cạnh theo GUIDE; ghi giới hạn.
+- [ ] Có lệnh chạy, code, manifest, experiment log và báo cáo cá nhân.
+- [ ] Không có secret, dữ liệu riêng tư hoặc dữ liệu không được phép chia sẻ.
 - [ ] Repo mở được cho người chấm và đã nộp link theo hướng dẫn lớp.
-
-## Tình trạng bài Nguyễn Minh Quân
-
-- Đã có 189 trang và manifest đầy đủ thông số; học viên đã xác nhận được quyền chia sẻ bản PDF ngày 14/11/2026, ghi trong manifest.
-- Audit là **AI đề xuất, học viên xác nhận**, không phải đánh giá độc lập/mù. Đã lưu 30 coherence, 15 grounding, 45 metadata cùng lý do/xác nhận; xem [audit](starter/results/audit/README.md).
-- Báo cáo đã hoàn thiện: [2A202603794_NguyenMinhQuan.md](report/individual/2A202603794_NguyenMinhQuan.md).
-- Kiểm tra kỹ thuật: chạy `starter/.venv/bin/python starter/scripts/verify_submission.py`. Đã kiểm tra mẫu secret và file nhạy cảm trong phạm vi Git; quyền chia sẻ PDF dựa trên xác nhận của học viên, không phải xác minh độc lập.
-- Còn: commit chốt bài/push; xác nhận người chấm truy cập repo; nộp link theo kênh và deadline giảng viên quy định. Chưa thực hiện commit/push/nộp trong bước viết báo cáo.
