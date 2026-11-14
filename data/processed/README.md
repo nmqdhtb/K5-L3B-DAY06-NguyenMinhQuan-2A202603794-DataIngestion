@@ -20,6 +20,6 @@ starter/.venv/bin/python starter/scripts/prepare_corpus.py
 
 ## Bước tiếp theo
 
-Xây ít nhất 20 câu hỏi với evidence trích từ `pages.jsonl`, tách 15 dev / 5 test trước khi chạy retrieval. Chưa có benchmark, embedding hoặc điểm đánh giá ở bước chuẩn bị này.
+Đã tạo 20 câu hỏi với evidence trích từ `pages.jsonl`, tách 15 dev / 5 test ở `benchmark/`. Học viên kiểm chứng evidence trước khi chạy retrieval. Chưa chạy embedding hoặc đo điểm đánh giá.
 
-Corpus hiện chỉ có một tác phẩm; trường author/language không phân biệt được phạm vi lọc. Cần xác định thêm metadata có căn cứ (ví dụ khoảng số câu thơ hoặc phân đoạn có dẫn chứng), cùng ít nhất 3 câu hỏi yêu cầu phạm vi đó, trong đó có 1 câu test. Không tự gắn nhãn chương không tồn tại trong bản nguồn hoặc dùng trang gold làm filter.
+Corpus chỉ có một tác phẩm; trường author/language không phân biệt được phạm vi lọc. Đã thêm `verse_start`/`verse_end` theo thứ tự dòng thơ trích xuất và 4 câu hỏi có phạm vi dòng cung cấp trước. Xem `benchmark/README.md` về ngữ nghĩa filter, sai lệch mốc số in và giới hạn tại trang biên.

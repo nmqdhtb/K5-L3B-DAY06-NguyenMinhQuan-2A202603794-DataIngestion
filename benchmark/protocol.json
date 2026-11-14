@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "created_at": "2026-11-14T11:00:16.367111+07:00",
+  "status": "split_and_selection_rule_fixed_before_retrieval; student evidence review confirmed",
+  "retrieval_run": false,
+  "split": {
+    "dev": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "test": [
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20"
+    ]
+  },
+  "split_rationale": "Dev uses selected passages on pages 2–130; test uses disjoint passages on pages 140–189. All from one work: not independent documents; thematic/character overlap remains.",
+  "selection_rule": [
+    "Highest dev Evidence Hit@3",
+    "Then highest dev Hit@1",
+    "Then fewer indexed chunks",
+    "Then alphabetical strategy ID for deterministic final tie"
+  ],
+  "filter_semantics": "AND: page verse_start <= requested upper bound AND page verse_end >= requested lower bound. Page-range intersection, not gold-page lookup. A/B ignore filters; C applies supplied filter. No filter means unfiltered C.",
+  "metadata_definition": "verse_start/end: 1-based sequential extracted verse-line ordinals, excluding blank lines, title and standalone printed number markers. Not claimed to be authoritative printed verse numbers. Chunks inherit page ranges; boundary pages may include out-of-range lines.",
+  "metrics": "Hit requires one chunk containing complete documented evidence and a valid source/page. Normalize whitespace for matching, keep original traces. Accept documented equivalent/alternative gold only after source review; do not change strategy after test.",
+  "limitations": [
+    "Small, single-work benchmark with thematic overlap",
+    "Range filters are synthetic user-supplied study scopes, explicitly stated in questions",
+    "Page-level range filter is coarse at boundary pages",
+    "AI authored and source-reviewed; student reports evidence verification complete; no retrieval-output audit labels or retrieval scores generated"
+  ],
+  "frozen_files_sha256": {
+    "data/processed/pages.jsonl": "e5c8229c586789d9d667a1ab23b739cb632597e51f58ec71a0a8781ec8738f16",
+    "benchmark/questions.json": "bfd95c40ef437861d8c4696be2f9667ac179d7bbb17c6739a76de2699120e914",
+    "benchmark/dev_queries.json": "2462d394a26b439954d90d6586875e209ead66e6c0a3ea89919a4f74946c422a",
+    "benchmark/test_queries.json": "64767abb547229a86e9a0e6ca5d1c03ac9a959310ab0ec9727f4fd8318196e75",
+    "benchmark/coherence_positions.json": "0d36f0ac0ae2d1c7b5a2e253780377e6e7352e3b3aa9ff268770fe4c9e1990a6"
+  },
+  "student_review_record": "benchmark/student_review.json",
+  "student_review_confirmed_at": "2026-11-14T11:09:05.003145+07:00"
+}

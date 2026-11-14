@@ -1,0 +1,98 @@
+[
+  {
+    "id": "q01",
+    "question": "Người con trai trong gia đình viên ngoại họ Vương tên là gì?",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "question": "Trong phạm vi 1.000 dòng thơ đầu của bản trích xuất, tiết Thanh minh diễn ra vào tháng nào, gồm lễ và hội gì?",
+    "filter": {
+      "verse_start": {
+        "lte": 1000
+      },
+      "verse_end": {
+        "gte": 1
+      }
+    }
+  },
+  {
+    "id": "q03",
+    "question": "Theo lời Vương Quan kể khi gặp ngôi mộ, Đạm Tiên trước kia làm nghề gì?",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "question": "Chàng trai mang họ Kim, tên Trọng được giới thiệu có xuất thân như thế nào?",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "question": "Trong giấc chiêm bao, Kiều viết bao nhiêu khúc ngâm sau khi nhận đề bài?",
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "question": "Sau khi nhận lời thủy chung, những vật nào được trao tay làm tín vật?",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "question": "Khi từ chối sự vội vàng trong tình yêu, Kiều nói nếu còn thân thì sau này có thể làm gì?",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "question": "Khi phải lựa chọn giữa tình và hiếu, Kiều quyết định làm gì để cứu cha?",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "question": "Không gian bốn bề quanh lầu Ngưng Bích được miêu tả với những cảnh vật nào?",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "question": "Việc chuộc Kiều khỏi Tú bà được miêu tả bằng những bước trao đổi và thủ tục nào?",
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "question": "Trong phạm vi dòng thơ trích xuất 1.001–2.000, người nói “Giấu ta ta cũng liệu bài giấu cho” ví tình thế đối phương với hình ảnh nào?",
+    "filter": {
+      "verse_start": {
+        "lte": 2000
+      },
+      "verse_end": {
+        "gte": 1001
+      }
+    }
+  },
+  {
+    "id": "q12",
+    "question": "Khi nhân vật vừa tỉnh lại và bị gọi lên hầu, tấm bài treo trong tòa nhà ghi những chữ gì?",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "question": "Tiểu thư giao cho ai việc tra hỏi thực tình khi thấy người hầu xót xa?",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "question": "Điều gì ở đồ chuông khánh khiến Giác Duyên lo lường và hỏi lại lai lịch của nàng?",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "question": "Trong phạm vi dòng thơ trích xuất 2.001–3.254, người sắp ra đi lấy lý do bốn bể không nhà để khuyên người ở lại thế nào, và hẹn chờ bao lâu?",
+    "filter": {
+      "verse_start": {
+        "lte": 3254
+      },
+      "verse_end": {
+        "gte": 2001
+      }
+    }
+  }
+]

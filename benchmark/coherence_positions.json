@@ -1,0 +1,62 @@
+[
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 1,
+    "character_offset": 23,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 2,
+    "character_offset": 0,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 3,
+    "character_offset": 0,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 4,
+    "character_offset": 0,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 5,
+    "character_offset": 0,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 6,
+    "character_offset": 0,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 7,
+    "character_offset": 0,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 8,
+    "character_offset": 5,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 9,
+    "character_offset": 0,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  },
+  {
+    "document_id": "truyen-kieu-nguyen-du",
+    "page": 10,
+    "character_offset": 5,
+    "selection_rule": "First content line on each of the first 10 physical pages; selected before retrieval."
+  }
+]

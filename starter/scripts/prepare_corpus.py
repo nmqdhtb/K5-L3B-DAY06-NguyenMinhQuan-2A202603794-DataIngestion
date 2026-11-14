@@ -12,6 +12,7 @@ import pypdf
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "starter"))
 from src.ingestion import load_pdf, normalize_text
+from src.corpus_metadata import annotate_verse_positions
 
 
 def write_json(path, value):
@@ -52,12 +53,15 @@ def main():
         entry["content_page_count"] = len(counts)
         entry["normalized_character_counts_by_page"] = counts
         entry["normalization_status"] = "Đã chuẩn hóa NFC, khoảng trắng, giữ dòng/đoạn và số câu; sửa ƣ → ư riêng cho snapshot PDF này."
-        entry["status"] = "Đã xuất corpus chuẩn hóa; chưa tạo benchmark hoặc chạy embedding. Quyền bản PDF chưa được xác minh độc lập."
+        entry["status"] = "Đã xuất corpus chuẩn hóa; chưa chạy embedding. Quyền bản PDF chưa được xác minh độc lập."
         summaries.append({"source_id": entry["source_id"], "physical_pages": len(pages),
                           "included_pages": len(counts), "normalized_characters": sum(counts.values()),
                           "replacements_u": repairs, "sha256": digest})
     if len(records) < 30:
         raise ValueError("Fewer than 30 selected nonempty pages")
+    if len(manifest['sources']) != 1 or manifest['sources'][0]['source_id'] != 'truyen-kieu-nguyen-du':
+        raise ValueError('Verse annotation is specific to the supplied Kieu edition')
+    anomalies = annotate_verse_positions(records)
     output = ROOT / "data/processed"
     output.mkdir(parents=True, exist_ok=True)
     results = ROOT / "starter/results"
@@ -69,6 +73,7 @@ def main():
         "checked_at": datetime.now(ZoneInfo("Asia/Ho_Chi_Minh")).isoformat(),
         "python_version": sys.version.split()[0], "pypdf_version": pypdf.__version__,
         "sources": summaries, "extraction_errors_or_empty_pages": len(errors),
+        "verse_numbering_anomalies": anomalies,
         "scope": "Extraction checks only; not proof of licensing or manual review of every page",
     })
     write_json(manifest_path, manifest)

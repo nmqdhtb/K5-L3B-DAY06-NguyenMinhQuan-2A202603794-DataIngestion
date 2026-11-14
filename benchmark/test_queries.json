@@ -1,0 +1,34 @@
+[
+  {
+    "id": "q16",
+    "question": "Khi từ biệt sau việc báo phục, Giác Duyên dự đoán bao lâu nữa sẽ gặp lại?",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "question": "Trong phạm vi dòng thơ trích xuất 2.001–3.254, khúc đàn được hỏi tên là khúc gì và được phổ vào đàn từ khi nào?",
+    "filter": {
+      "verse_start": {
+        "lte": 3254
+      },
+      "verse_end": {
+        "gte": 2001
+      }
+    }
+  },
+  {
+    "id": "q18",
+    "question": "Kim Trọng đã ở đất Liêu Dương bao lâu trước khi trở về và sang vườn Thúy dò la?",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "question": "Trong lời kể của Thúc Sinh, đại vương tên Hải họ gì, và gặp nàng ở đâu?",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "question": "Ở lời kết tác phẩm, chữ tâm được đặt cao hơn chữ tài như thế nào?",
+    "filter": null
+  }
+]

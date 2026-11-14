@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-14T10:53:02.775214+07:00",
+  "checked_at": "2026-11-14T11:01:41.272958+07:00",
   "python_version": "3.12.2",
   "pypdf_version": "6.21.4",
   "sources": [
@@ -13,5 +13,22 @@
     }
   ],
   "extraction_errors_or_empty_pages": 0,
+  "verse_numbering_anomalies": [
+    {
+      "page": 8,
+      "printed_marker": 130,
+      "next_extracted_verse_ordinal": 131
+    },
+    {
+      "page": 28,
+      "printed_marker": 490,
+      "next_extracted_verse_ordinal": 489
+    },
+    {
+      "page": 30,
+      "printed_marker": 505,
+      "next_extracted_verse_ordinal": 515
+    }
+  ],
   "scope": "Extraction checks only; not proof of licensing or manual review of every page"
 }

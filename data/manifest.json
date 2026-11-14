@@ -403,7 +403,7 @@
         "size_bytes": 1015246,
         "edition": "Truyện Kiều (trọn bộ); chưa xác minh thông tin xuất bản"
       },
-      "status": "Đã xuất corpus chuẩn hóa; chưa tạo benchmark hoặc chạy embedding. Quyền bản PDF chưa được xác minh độc lập.",
+      "status": "Đã xuất corpus chuẩn hóa; chưa chạy embedding. Quyền bản PDF chưa được xác minh độc lập.",
       "access_method": "Đọc bản PDF local do học viên cung cấp; không xác nhận ngày tải từ website.",
       "excluded_pages": [
         {

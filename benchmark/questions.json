@@ -1,0 +1,450 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người con trai trong gia đình viên ngoại họ Vương tên là gì?",
+    "expected_answer": "Vương Quan.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 2,
+    "evidence_quote": "13. Một trai con thứ rốt lòng,\n14. Vương Quan là chữ, nối dòng nho gia.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 231,
+      "end": 302
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "metadata",
+    "question": "Trong phạm vi 1.000 dòng thơ đầu của bản trích xuất, tiết Thanh minh diễn ra vào tháng nào, gồm lễ và hội gì?",
+    "expected_answer": "Tháng ba; lễ tảo mộ và hội đạp Thanh.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 3,
+    "evidence_quote": "43. Thanh minh trong tiết tháng ba,\n44. Lễ là tảo mộ, hội là đạp Thanh.",
+    "alternative_gold": [],
+    "filter": {
+      "verse_start": {
+        "lte": 1000
+      },
+      "verse_end": {
+        "gte": 1
+      }
+    },
+    "evidence_offsets": {
+      "start": 507,
+      "end": 578
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo lời Vương Quan kể khi gặp ngôi mộ, Đạm Tiên trước kia làm nghề gì?",
+    "expected_answer": "Đạm Tiên là ca nhi.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 4,
+    "evidence_quote": "61. Vương Quan mới dẫn gần xa:\n62. Đạm Tiên nàng ấy xưa là ca nhi.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 357,
+      "end": 423
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Chàng trai mang họ Kim, tên Trọng được giới thiệu có xuất thân như thế nào?",
+    "expected_answer": "Xuất thân nhà trâm anh, nền phú hậu, bậc tài danh.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 9,
+    "evidence_quote": "Nguyên người quanh quất đâu xa,\nHọ Kim tên Trọng vốn nhà trâm anh.\nNền phú hậu, bậc tài danh,",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 0,
+      "end": 93
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong giấc chiêm bao, Kiều viết bao nhiêu khúc ngâm sau khi nhận đề bài?",
+    "expected_answer": "Mười khúc ngâm.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 12,
+    "evidence_quote": "Kiều vâng lĩnh ý đề bài,\nTay tiên một vẫy đủ mười khúc ngâm.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 205,
+      "end": 265
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Sau khi nhận lời thủy chung, những vật nào được trao tay làm tín vật?",
+    "expected_answer": "Kim thoa và khăn hồng.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 20,
+    "evidence_quote": "Một lời vâng tạc đá vàng thủy chung!”\nĐược lời như cởi tấm lòng,\nGiở kim thoa với khăn hồng trao tay,",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 484,
+      "end": 585
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Khi từ chối sự vội vàng trong tình yêu, Kiều nói nếu còn thân thì sau này có thể làm gì?",
+    "expected_answer": "Có thể đền bồi về sau, không cần vội ép chuyện tình duyên.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 30,
+    "evidence_quote": "Vội chi liễu ép hoa nài,\nCòn thân ắt lại đền bồi có khi!",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 400,
+      "end": 456
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Khi phải lựa chọn giữa tình và hiếu, Kiều quyết định làm gì để cứu cha?",
+    "expected_answer": "Đặt ơn sinh thành lên trước và bán mình chuộc cha.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 35,
+    "evidence_quote": "Duyên hội ngộ, đức cù lao,\nBên tình bên hiếu, bên nào nặng hơn?\nĐể lời thệ hải minh sơn,\nLàm con trước phải đền ơn sinh thành.\n\n605.\nQuyết tình nàng mới hạ tình:\nDẽ cho để thiếp bán mình chuộc cha!",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 205,
+      "end": 402
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Không gian bốn bề quanh lầu Ngưng Bích được miêu tả với những cảnh vật nào?",
+    "expected_answer": "Non xa, trăng gần, cát vàng và bụi hồng.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 60,
+    "evidence_quote": "Trước lầu Ngưng bích khóa xuân,\nVẻ non xa, tấm trăng gần, ở chung.\n\n1035.\nBốn bề bát ngát xa trông,\nCát vàng cồn nọ, bụi hồng dặm kia.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 338,
+      "end": 472
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Việc chuộc Kiều khỏi Tú bà được miêu tả bằng những bước trao đổi và thủ tục nào?",
+    "expected_answer": "Trao của rõ ràng, hoàn lương vào cửa công; cả việc công và tư đều xong.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 80,
+    "evidence_quote": "Rõ ràng của dẫn tay trao,\nHoàn lương một thiếp thân vào cửa công.\nCông tư đôi lẽ đều xong,\n\n1380.\nGót tiên phút đã thoát vòng trần ai.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 264,
+      "end": 398
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "metadata",
+    "question": "Trong phạm vi dòng thơ trích xuất 1.001–2.000, người nói “Giấu ta ta cũng liệu bài giấu cho” ví tình thế đối phương với hình ảnh nào?",
+    "expected_answer": "Kiến trong miệng chén, không thể bò đi đâu.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 90,
+    "evidence_quote": "Tính rằng cách mặt khuất lời,\nGiấu ta ta cũng liệu bài giấu cho!\nLo gì việc ấy mà lo,\nKiến trong miệng chén có bò đi đâu?",
+    "alternative_gold": [],
+    "filter": {
+      "verse_start": {
+        "lte": 2000
+      },
+      "verse_end": {
+        "gte": 1001
+      }
+    },
+    "evidence_offsets": {
+      "start": 181,
+      "end": 302
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Khi nhân vật vừa tỉnh lại và bị gọi lên hầu, tấm bài treo trong tòa nhà ghi những chữ gì?",
+    "expected_answer": "Thiên Quan Trủng Tể.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 100,
+    "evidence_quote": "Ngước trông tòa rộng dãy dài,\nThiên Quan Trủng Tể có bài treo trên.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 350,
+      "end": 417
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tiểu thư giao cho ai việc tra hỏi thực tình khi thấy người hầu xót xa?",
+    "expected_answer": "Thúc Sinh.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 110,
+    "evidence_quote": "Tiểu thư hỏi lại Thúc Sinh:\n\n1890.\nCậy chàng tra lấy thực tình cho nao!",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 190,
+      "end": 261
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Điều gì ở đồ chuông khánh khiến Giác Duyên lo lường và hỏi lại lai lịch của nàng?",
+    "expected_answer": "Khách đàn việt nhận xét đồ chuông khánh giống của nhà Hoạn nương.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 120,
+    "evidence_quote": "Giở đồ chuông khánh xem qua,\nKhen rằng: Khéo giống của nhà Hoạn nương!\nGiác Duyên thực ý lo lường,\nĐêm thanh mới hỏi lại nàng trước sau.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 365,
+      "end": 501
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata_dieu_kien",
+    "question": "Trong phạm vi dòng thơ trích xuất 2.001–3.254, người sắp ra đi lấy lý do bốn bể không nhà để khuyên người ở lại thế nào, và hẹn chờ bao lâu?",
+    "expected_answer": "Theo đi sẽ thêm bận; hãy chờ ít lâu, chậm thì một năm.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 130,
+    "evidence_quote": "Bằng ngay bốn bể không nhà,\nTheo càng thêm bận, biết là đi đâu?\nĐành lòng chờ đó ít lâu,\nChầy chăng là một năm sau vội gì?",
+    "alternative_gold": [],
+    "filter": {
+      "verse_start": {
+        "lte": 3254
+      },
+      "verse_end": {
+        "gte": 2001
+      }
+    },
+    "evidence_offsets": {
+      "start": 0,
+      "end": 122
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Khi từ biệt sau việc báo phục, Giác Duyên dự đoán bao lâu nữa sẽ gặp lại?",
+    "expected_answer": "Trong năm năm.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 140,
+    "evidence_quote": "Sư rằng: Cũng chẳng bao lâu,\nTrong năm năm lại gặp nhau đó mà.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 191,
+      "end": 253
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "metadata",
+    "question": "Trong phạm vi dòng thơ trích xuất 2.001–3.254, khúc đàn được hỏi tên là khúc gì và được phổ vào đàn từ khi nào?",
+    "expected_answer": "Khúc Bạc mệnh; được phổ vào đàn từ những ngày còn thơ.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 150,
+    "evidence_quote": "Thưa rằng: Bạc mệnh khúc này,\nPhổ vào đàn ấy những ngày còn thơ.",
+    "alternative_gold": [],
+    "filter": {
+      "verse_start": {
+        "lte": 3254
+      },
+      "verse_end": {
+        "gte": 2001
+      }
+    },
+    "evidence_offsets": {
+      "start": 199,
+      "end": 263
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Kim Trọng đã ở đất Liêu Dương bao lâu trước khi trở về và sang vườn Thúy dò la?",
+    "expected_answer": "Nửa năm.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 160,
+    "evidence_quote": "Nỗi chàng Kim Trọng bấy chầy mới thương.\nTừ ngày muôn dặm phù tang,\nNửa năm ở đất Liêu dương lại nhà.\nVội sang vườn Thúy dò la,",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 6,
+      "end": 133
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Trong lời kể của Thúc Sinh, đại vương tên Hải họ gì, và gặp nàng ở đâu?",
+    "expected_answer": "Họ Từ; gặp nàng ở châu Thai.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 170,
+    "evidence_quote": "Đại vương tên Hải họ Từ,\n\n2920.\nĐánh quen trăm trận sức dư muôn ngườị\nGặp nàng khi ở châu Thai,",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 263,
+      "end": 358
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "Ở lời kết tác phẩm, chữ tâm được đặt cao hơn chữ tài như thế nào?",
+    "expected_answer": "Một chữ tâm bằng ba chữ tài.",
+    "gold_source_id": "truyen-kieu-nguyen-du",
+    "gold_page": 189,
+    "evidence_quote": "Thiện căn ở tại lòng ta,\nChữ tâm kia mới bằng ba chữ tài.",
+    "alternative_gold": [],
+    "filter": null,
+    "evidence_offsets": {
+      "start": 458,
+      "end": 515
+    },
+    "verification": {
+      "assistant_source_review": "Đã đọc trang chuẩn hóa và đối chiếu nội dung đáp án với evidence.",
+      "student_review": "pending",
+      "automatic_exact_match": true
+    }
+  }
+]
