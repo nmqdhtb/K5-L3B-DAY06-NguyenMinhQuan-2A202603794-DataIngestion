@@ -42,4 +42,4 @@ Chọn cấu hình bằng dev: ưu tiên Evidence Hit@3, sau đó Hit@1, sau đ�
 
 Hit yêu cầu một chunk vừa đúng nguồn/trang vừa chứa đủ evidence. Có thể chuẩn hóa khoảng trắng khi khớp; không chấp nhận chỉ trùng vài từ hoặc chỉ đúng trang. `alternative_gold` hiện rỗng: chưa xác định bằng chứng thay thế, không có nghĩa mọi nguồn khác đều sai. Nếu tìm thấy evidence tương đương, đối chiếu nguồn, ghi vào phiên bản gold mới và áp dụng đồng nhất cho cả ba cấu hình; không tinh chỉnh chiến lược dựa trên kết quả test.
 
-Đã có điểm retrieval dev và chốt C trong `selected_strategy.json`; xem [kết quả dev](../starter/results/benchmark/README.md). Test chưa chạy. Grounding, coherence và metadata audit thủ công chưa có nhãn; chỉ ghi sau khi đọc kết quả thực tế.
+Đã có điểm retrieval dev và chốt C trong `selected_strategy.json`; xem [kết quả dev](../starter/results/benchmark/README.md). Test đã chạy với cấu hình cố định; xem `test_execution.json`. Có [phiếu audit và đề xuất AI](../starter/results/audit/README.md), đã được học viên xác nhận; ghi rõ phương pháp đánh giá có AI hỗ trợ.

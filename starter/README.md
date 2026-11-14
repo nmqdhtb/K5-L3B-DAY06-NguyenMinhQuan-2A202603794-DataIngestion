@@ -1,6 +1,6 @@
 # Starter · PostgreSQL + pgvector
 
-Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Đã bổ sung mã embedding local và vector store; xem hướng dẫn chạy/kiểm tra ở [results/vector_ingestion/README.md](results/vector_ingestion/README.md). Đã triển khai chấm evidence và chạy dev; xem [kết quả benchmark](results/benchmark/README.md). Entry point `src.run` vẫn có TODO; hiện dùng các script theo từng bước. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; database local đã được kiểm tra kết nối thành công. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Đã bổ sung mã embedding local và vector store; xem hướng dẫn chạy/kiểm tra ở [results/vector_ingestion/README.md](results/vector_ingestion/README.md). Đã triển khai chấm evidence và chạy dev/test; xem [kết quả benchmark](results/benchmark/README.md). Entry point `src.run` vẫn có TODO; hiện dùng các script theo từng bước. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; database local đã được kiểm tra kết nối thành công. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 Chạy bước chia chunk từ thư mục gốc repo bằng `starter/.venv/bin/python starter/scripts/build_chunks.py`. Cấu hình, thống kê và mẫu chấm coherence xem [results/chunking/README.md](results/chunking/README.md).
 

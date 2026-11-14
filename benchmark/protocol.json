@@ -43,7 +43,7 @@
     "Small, single-work benchmark with thematic overlap",
     "Range filters are synthetic user-supplied study scopes, explicitly stated in questions",
     "Page-level range filter is coarse at boundary pages",
-    "AI authored and source-reviewed; student reports evidence verification complete; dev retrieval scores recorded separately; manual coherence/metadata/grounding labels pending"
+    "AI authored gold verified by student; dev/test scores recorded; student accepted AI audit proposals, not independent blind scoring"
   ],
   "frozen_files_sha256": {
     "data/processed/pages.jsonl": "e5c8229c586789d9d667a1ab23b739cb632597e51f58ec71a0a8781ec8738f16",
@@ -56,7 +56,9 @@
   "student_review_confirmed_at": "2026-11-14T11:09:05.003145+07:00",
   "execution_status": {
     "dev": "completed",
-    "test": "not_run",
-    "selection_record": "benchmark/selected_strategy.json"
+    "test": "completed",
+    "selection_record": "benchmark/selected_strategy.json",
+    "test_record": "benchmark/test_execution.json",
+    "audit": "student confirmed AI-assisted labels and metadata checks"
   }
 }

@@ -1,6 +1,6 @@
 # Kết quả benchmark
 
-Đã chạy **dev**, chưa chạy test. Cấu hình đã chọn và hash các đầu vào/code được chốt ở `benchmark/selected_strategy.json`. Đường dẫn lần chạy cụ thể nằm trong trường `dev_run_directory` của file đó.
+Đã chạy **dev và test**, với lựa chọn C được cố định trước test. Cấu hình đã chọn và hash các đầu vào/code được chốt ở `benchmark/selected_strategy.json`. Đường dẫn lần chạy cụ thể nằm trong trường `dev_run_directory` của file đó.
 
 | Strategy | Hit@1 | Evidence Hit@3 | Chunk count | Top-3 tuân thủ phạm vi yêu cầu |
 |---|---:|---:|---:|---:|
@@ -47,4 +47,31 @@ Script từ chối chạy lại khi đã có `benchmark/selected_strategy.json` 
 
 Chi phí API của lượt dev là 0 USD; thời gian query embedding được tính một lần cho cả A/B/C. Thời gian truy vấn có cả mở kết nối local và chỉ là một lượt đo; không suy luận cấu hình nào nhanh hơn một cách tổng quát từ chênh lệch nhỏ.
 
-Bước tiếp theo: kiểm tra hash cấu hình đã chọn, chạy 5 câu test cho A/B/C sau khi cố định, rồi chấm thủ công coherence, metadata và grounding. Không điều chỉnh cấu hình theo kết quả test.
+Bước test bên dưới đã hoàn thành. Học viên đã xác nhận phiếu chấm coherence, metadata và grounding có AI hỗ trợ; không điều chỉnh cấu hình theo kết quả test.
+
+## Kết quả test sau khi cố định
+
+Đã kiểm tra hash các đầu vào/code và kết quả dev trước khi chạy test. `benchmark/test_execution.json` lưu hash quyết định lựa chọn, đường dẫn test và checksum artifacts. `selected_strategy.json` giữ nguyên snapshot thời điểm chọn C (trường `test_run: false` trong snapshot phản ánh thời điểm đó); trạng thái test hiện tại xem `test_execution.json`.
+
+| Strategy | Test Hit@1 | Test Evidence Hit@3 | Top-3 tuân thủ phạm vi |
+|---|---:|---:|---:|
+| A | 1/5 (20%) | 3/5 (60%) | 0/1 |
+| B | 2/5 (40%) | 4/5 (80%) | 0/1 |
+| C | 3/5 (60%) | 4/5 (80%) | 1/1 |
+
+Giữ nguyên **C đã chọn trên dev**, không chọn lại theo test. Lưu 15 trace test với 45 kết quả chunk top-3. Tổng cả hai split: 60 trace, 180 kết quả chunk.
+
+- `q17`: cả ba đều có đủ evidence trang 150 trong top-3, nhưng vị trí là hạng 3 ở A, hạng 2 ở B và hạng 1 ở C. Filter cải thiện thứ hạng và phạm vi, không làm tăng Hit@3 của câu này.
+- `q18`: A không lấy được bằng chứng nửa năm ở Liêu Dương; B/C lấy được ở hạng 3, trang 160.
+- `q20`: cả ba miss. B/C có chunk ở trang 189 nhưng chỉ đến đoạn nói về chữ tài/nghiệp, chưa tới “Chữ tâm kia mới bằng ba chữ tài”; không thể tính hit chỉ vì đúng trang.
+- `q16` đạt top-1 ở cả ba; `q19` từ hạng 2 ở A lên hạng 1 ở B/C.
+
+Test chỉ có 5 câu; một câu tương đương 20 điểm phần trăm. Test khác dev về đoạn nguồn nhưng vẫn cùng tác phẩm, không chứng minh khả năng tổng quát trên nguồn mới. Không thay model, chunk hoặc gold sau khi xem test.
+
+Lệnh test đã chạy:
+
+```bash
+starter/.venv/bin/python starter/scripts/run_test_benchmark.py
+```
+
+Lệnh từ chối chạy lại nếu đã có `benchmark/test_execution.json`. Các mẫu chấm và đề xuất AI ở [audit](../audit/README.md); đã được học viên xác nhận, với nguồn gốc đề xuất AI được giữ rõ.

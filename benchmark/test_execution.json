@@ -1,0 +1,15 @@
+{
+  "selected_strategy_before_test": "C",
+  "selected_strategy_sha256": "480a34c1bbe6fc13a232f6796cc2a9841b627cfe7e89451d106cc85a4a2d8862",
+  "completed_at": "2026-11-14T11:37:21.286471+07:00",
+  "test_run_directory": "starter/results/benchmark/test/20261114T113721286471",
+  "frozen_inputs_verified": true,
+  "strategy_reselected": false,
+  "test_runner_sha256": "50f3d4374f75a39fa3c3fa3877e1d73fd8ce16aae54990598f79accc16a040ec",
+  "artifacts_sha256": {
+    "starter/results/benchmark/test/20261114T113721286471/metrics.json": "fdd6b32cfd512fe84c9d68f236d7a41b458b166f1dd7d7f19925858f2f3ee23d",
+    "starter/results/benchmark/test/20261114T113721286471/metrics.csv": "eff3935b70053b359ea7b83d035045c6e8894ac18989734d3c8dcfcc92d30d1e",
+    "starter/results/benchmark/test/20261114T113721286471/traces.jsonl": "78171b201a6eaa3a559c9b06659805c8ea6ad9d36b53dec12494ab49f77c285c",
+    "starter/results/benchmark/test/20261114T113721286471/run.json": "3819109b5c6a5f304164ca3a244ec4de17e718193095964c3df035476cf36391"
+  }
+}
