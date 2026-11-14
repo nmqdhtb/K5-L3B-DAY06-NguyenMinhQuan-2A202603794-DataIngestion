@@ -13,7 +13,7 @@ PYTHONPATH=starter starter/.venv/bin/python -m unittest discover -s starter/test
 | B | Gộp các đoạn cách nhau bằng dòng trắng | 500 | 0 | `chunks_B.jsonl` |
 | C | Giống B; bật filter khi truy xuất | 500 | 0 | Dùng lại `chunks_B.jsonl` |
 
-Các tham số được đặt trước khi chạy retrieval, chưa phải cấu hình tối ưu. A–B so sánh hai cách chia, bao gồm khác biệt overlap; không tách riêng được tác động overlap. B–C chỉ thay filter. Chưa chọn model hoặc chạy embedding, vector store, retrieval.
+Các tham số được đặt trước khi chạy retrieval, chưa phải cấu hình tối ưu. A–B so sánh hai cách chia, bao gồm khác biệt overlap; không tách riêng được tác động overlap. B–C chỉ thay filter. Đây là artifact của bước chia chunk; các bước embedding/pgvector/retrieval sau đó đã hoàn tất, xem README gốc.
 
 Chunk luôn nằm trong một trang PDF. Với B, đoạn quá dài được cắt ở cuối dòng thơ; nếu một dòng vẫn dài hơn giới hạn thì cắt theo ký tự. Khoảng trắng và số câu được giữ nguyên. Các đoạn này phản ánh xuống dòng của bản PDF, không đảm bảo là khổ thơ hoặc đơn vị ý nghĩa hoàn chỉnh. Đầu/cuối trang có thể cắt ngang ý.
 

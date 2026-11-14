@@ -1,6 +1,6 @@
 # Phiếu đọc và kiểm chứng benchmark
 
-Do AI biên soạn và đối chiếu văn bản; học viên cần tự xác nhận trong `student_review.json`. Chưa có kết quả retrieval. Không dùng đáp án/evidence làm đầu vào tìm kiếm.
+Do AI biên soạn và đối chiếu văn bản; học viên đã xác nhận trong `student_review.json`. Dev/test đã có kết quả trong `starter/results/benchmark/`. Không dùng đáp án/evidence làm đầu vào tìm kiếm.
 
 ## q01 · dev · trang PDF 2
 

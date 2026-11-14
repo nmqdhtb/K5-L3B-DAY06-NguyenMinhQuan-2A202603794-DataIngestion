@@ -8,8 +8,11 @@
       "local_path": "starter/data/truyen_kieu_tron_bo.pdf",
       "license_or_permission": {
         "original_work": "Public domain",
-        "verification_status": "Chưa xác minh độc lập",
-        "pdf_edition_notes": "Chưa xác minh quyền đối với phần biên tập, chú giải hoặc nội dung bổ sung của bản PDF cụ thể."
+        "verification_status": "Học viên xác nhận được quyền chia sẻ PDF; không phải xác minh pháp lý độc lập của trợ lý",
+        "pdf_edition_notes": "Xác nhận áp dụng cho bản PDF local được ghi trong manifest; không suy diễn thành một giấy phép mở cụ thể.",
+        "sharing_permission_confirmed_by_student": true,
+        "student_statement": "được quyền chia sẻ pdf",
+        "confirmed_at": "2026-11-14T11:56:14.051848+07:00"
       },
       "source_recorded_at": "2026-11-14",
       "accessed_at": "2026-11-14",
@@ -403,7 +406,7 @@
         "size_bytes": 1015246,
         "edition": "Truyện Kiều (trọn bộ); chưa xác minh thông tin xuất bản"
       },
-      "status": "Đã xuất corpus chuẩn hóa; chưa chạy embedding. Quyền bản PDF chưa được xác minh độc lập.",
+      "status": "Đã chuẩn hóa, embedding, chạy dev/test và xác nhận audit có AI hỗ trợ. Học viên xác nhận được quyền chia sẻ PDF.",
       "access_method": "Đọc bản PDF local do học viên cung cấp; không xác nhận ngày tải từ website.",
       "excluded_pages": [
         {
@@ -424,7 +427,7 @@
           "ƣ": 1632
         },
         "visual_check": "Đã render trang 1: sáu câu thơ đầu hiển thị đúng tiếng Việt; đối chiếu được ngƣời với người.",
-        "next_step": "Triển khai chuẩn hóa có quy tắc, kiểm tra mẫu nhiều trang, lưu số ký tự sau chuẩn hóa và xây benchmark trên bản mới."
+        "next_step": "Bản ghi kiểm tra trích xuất ban đầu; chuẩn hóa và thực nghiệm đã hoàn tất, xem normalization_status và starter/results/."
       },
       "normalization_status": "Đã chuẩn hóa NFC, khoảng trắng, giữ dòng/đoạn và số câu; sửa ƣ → ư riêng cho snapshot PDF này."
     }

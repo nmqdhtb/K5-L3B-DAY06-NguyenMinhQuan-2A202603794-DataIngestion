@@ -1,3 +1,5 @@
 # Báo cáo cá nhân
 
-Copy `MSSV_HoTen.md` thành `<MSSV>_<HoTen>.md`, điền kết quả thực tế và liên kết đến trace, nhãn audit cùng cấu hình. Không ghi giá trị ví dụ thành kết quả đã chạy.
+Báo cáo bài làm: [Nguyễn Minh Quân — 2A202603794](2A202603794_NguyenMinhQuan.md).
+
+`MSSV_HoTen.md` là mẫu đề bài được giữ lại; không phải báo cáo đã điền. Số liệu và giới hạn trong báo cáo cá nhân lấy từ artifacts thực tế.

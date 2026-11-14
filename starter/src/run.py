@@ -1,19 +1,20 @@
-"""Suggested pipeline entry point; TODO: implement the orchestration."""
+"""Explicit stage dispatcher. Default verifies saved results without network/database access."""
+import argparse
+from pathlib import Path
+import subprocess
+import sys
 
 
-def main() -> None:
-    """TODO:
-
-    1. Load the corpus and benchmark; validate at least 30 content pages.
-    2. Build strategies A (fixed), B (paragraph) and C (B + metadata filter).
-    3. Embed with the same model and store vectors/metadata per strategy.
-    4. Run the same dev/test questions and save full top-3 traces.
-    5. Report retrieval metrics and prepare samples for manual assessment.
-
-    Follow the five dimensions in ../../BENCHMARK.md.
-    """
-    raise NotImplementedError("TODO: implement the Day 06 pipeline")
+def main():
+    stages={'verify':'verify_submission.py','prepare-corpus':'prepare_corpus.py',
+            'build-chunks':'build_chunks.py','prepare-model':'prepare_model.py',
+            'ingest':'ingest_vectors.py','dev':'run_dev_benchmark.py',
+            'test':'run_test_benchmark.py','reproduce':'reproduce_benchmark.py'}
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('stage',choices=stages,default='verify',nargs='?')
+    args=parser.parse_args()
+    root=Path(__file__).resolve().parents[2]
+    subprocess.run([sys.executable,str(root/'starter/scripts'/stages[args.stage])],cwd=root,check=True)
 
 
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':main()

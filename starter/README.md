@@ -1,67 +1,54 @@
-# Starter · PostgreSQL + pgvector
+# Pipeline Python — Truyện Kiều
 
-Bộ khởi động cho lab cá nhân. Đã triển khai đọc/chuẩn hóa PDF và chia chunk A/B/C. Đã bổ sung mã embedding local và vector store; xem hướng dẫn chạy/kiểm tra ở [results/vector_ingestion/README.md](results/vector_ingestion/README.md). Đã triển khai chấm evidence và chạy dev/test; xem [kết quả benchmark](results/benchmark/README.md). Entry point `src.run` vẫn có TODO; hiện dùng các script theo từng bước. Docker Compose cung cấp cấu hình PostgreSQL + pgvector local; database local đã được kiểm tra kết nối thành công. Vẫn có thể chọn vector store tương đương theo [GUIDE.md](../GUIDE.md).
+Hướng dẫn setup, lệnh từ gốc repo và kết quả đầy đủ ở [README gốc](../README.md). Đã triển khai đọc/chuẩn hóa, chia chunk, embedding local, pgvector và đánh giá dev/test; các nhãn audit có AI hỗ trợ đã được học viên xác nhận.
 
-Chạy bước chia chunk từ thư mục gốc repo bằng `starter/.venv/bin/python starter/scripts/build_chunks.py`. Cấu hình, thống kê và mẫu chấm coherence xem [results/chunking/README.md](results/chunking/README.md).
+## Entry point
 
-## Cấu trúc
-
-```text
-starter/
-├── docker-compose.yml     # PostgreSQL 16 + pgvector, chỉ mở cổng local
-├── init.sql               # bật extension khi tạo database mới
-├── requirements.txt       # psycopg, pypdf và python-dotenv
-├── .env.example           # cấu hình mẫu; copy thành .env
-├── scripts/check_setup.py # kiểm tra kết nối và extension (đã chạy được)
-├── src/
-│   ├── models.py          # cấu trúc dữ liệu mẫu
-│   ├── ingestion.py       # đọc / chuẩn hóa tài liệu
-│   ├── chunking.py        # chia chunk cố định / theo đoạn
-│   ├── embeddings.py      # embedding local, xử lý giới hạn token
-│   ├── store.py           # pgvector, snapshot upsert và filter
-│   ├── evaluation.py      # chấm evidence và tổng hợp Hit@1/Hit@3
-│   └── run.py             # TODO: kết nối các bước thành pipeline
-├── data/                  # bạn tự chuẩn bị corpus được phép sử dụng
-└── results/               # lưu kết quả của bạn
-```
-
-## 1. Cài và kiểm tra database
-
-Cần Docker Desktop hoặc Docker Engine + Compose, Python **3.11–3.14**, và mạng để tải image/dependencies lần đầu. Các lệnh sau chạy từ thư mục `starter/`:
+Từ thư mục `starter/`, dùng môi trường `.venv` đã cài theo README gốc:
 
 ```bash
-cd starter
-python3 -m venv .venv
+.venv/bin/python -m src.run
+.venv/bin/python -m src.run --help
 ```
 
-Kích hoạt `.venv`: macOS/Linux dùng `source .venv/bin/activate`; Windows PowerShell dùng `.venv\Scripts\Activate.ps1`. Sau đó:
+Mặc định `verify`: kiểm tra các artifacts offline. Các stage có sẵn:
+
+| Stage | Tác dụng |
+|---|---|
+| `verify` | Kiểm tra hash, chỉ số và xác nhận audit; không cần model/database |
+| `prepare-corpus` | Trích xuất/chuẩn hóa PDF theo manifest |
+| `build-chunks` | Tạo A/B, C dùng lại B; giữ nhãn coherence có sẵn |
+| `prepare-model` | Tải model công khai theo revision đã chốt |
+| `ingest` | Tạo embedding local, nạp pgvector và kiểm tra lưu trữ |
+| `dev` | Runner dev gốc; từ chối chạy nếu đã có quyết định chọn |
+| `test` | Runner test gốc; kiểm tra cấu hình đã chốt, từ chối chạy lại |
+| `reproduce` | Chạy lại cả hai split vào thư mục mới, giữ kết quả gốc |
+
+Trong repo đã có kết quả, dùng `reproduce` nếu muốn tái lập benchmark; không xóa marker dev/test. Một lần replay trên tập đã xem không được coi là holdout độc lập mới.
+
+## Thành phần
+
+- `src/ingestion.py`, `src/corpus_metadata.py`: nguồn, trang, chuẩn hóa và thứ tự dòng thơ.
+- `src/chunking.py`: cửa sổ cố định và chia theo đoạn, ID/offset ổn định.
+- `src/embeddings.py`: model Sentence Transformers local, xử lý văn bản vượt token limit.
+- `src/store.py`: snapshot upsert, cosine exact search, filter và transaction.
+- `src/evaluation.py`: Hit@1/Hit@3 theo evidence, không suy ra nhãn thủ công.
+- `scripts/`: các bước chạy, kiểm tra và replay; `tests/`: unit tests.
+- [results/chunking](results/chunking/README.md), [results/vector_ingestion](results/vector_ingestion/README.md), [results/benchmark](results/benchmark/README.md), [results/audit](results/audit/README.md): minh chứng và phương pháp.
+
+## Database local
+
+Compose dùng PostgreSQL 16 + pgvector 0.8.7, cổng `127.0.0.1:55433`, volume bền vững. Copy `.env.example` thành `.env` chỉ khi chưa có; không commit `.env`. Mật khẩu trong Compose chỉ dùng local cho lab.
+
+Từ thư mục `starter/`:
 
 ```bash
-python -m pip install -r requirements.txt
-# macOS/Linux: cp .env.example .env
-# Windows PowerShell: Copy-Item .env.example .env
 docker compose -p day6_student_starter up -d --wait
-python scripts/check_setup.py
+.venv/bin/python scripts/check_setup.py
 ```
 
-Kỳ vọng: hiện tên database, phiên bản PostgreSQL và pgvector, sau đó `Setup OK`. Đây **chỉ là kiểm tra hạ tầng**, không phải kết quả benchmark. Docker dùng cổng `127.0.0.1:55433` và mật khẩu cố định **chỉ dùng local cho lab**; nếu cổng bận, sửa đồng thời port trong `docker-compose.yml` và `DATABASE_URL` trong `.env`. `init.sql` chỉ chạy khi volume mới được tạo; nếu database sẵn có chưa bật extension, xem log Docker và kiểm tra cấu hình thay vì xóa volume chứa dữ liệu.
-
-Dừng container nhưng giữ dữ liệu:
+`init.sql` chỉ chạy khi tạo volume lần đầu. Không xóa volume đang chứa dữ liệu để xử lý lỗi. Dừng container mà giữ dữ liệu:
 
 ```bash
 docker compose -p day6_student_starter stop
 ```
-
-## 2. Chọn embedding model
-
-Điền key tương ứng trong `.env` nếu dùng OpenRouter, OpenAI hoặc Gemini; **không commit `.env`**. Model local không cần API key. `requirements.txt` đã có Sentence Transformers cho phương án local hiện tại; revision model nằm trong `embedding_config.json`. Ghi tên model và số chiều; dùng cùng model cho toàn bộ chiến lược và vector query tương thích vector document.
-
-## 3. Hoàn thiện pipeline
-
-1. Đặt corpus vào `data/` hoặc cung cấp manifest/hướng dẫn truy cập. Đọc [GUIDE.md](../GUIDE.md) về **30 trang nội dung**, quyền dữ liệu và metadata.
-2. Hoàn thiện từng hàm TODO trong `src/`. Lưu ID tài liệu, nguồn, trang/vị trí và ít nhất một trường filter có ích.
-3. Xây ít nhất ba cấu hình; ví dụ A fixed-size, B theo đoạn, C như B nhưng có filter. Cần cùng corpus, model và benchmark; nạp lại không nhân đôi và xử lý chunk cũ khi dữ liệu đổi.
-4. Tự viết ít nhất 20 câu hỏi kèm evidence, tách dev/test trước khi thử theo [BENCHMARK.md](../BENCHMARK.md). Lưu trace top-3 và báo cáo đủ năm tiêu chí.
-5. Sau khi hoàn thiện, chạy `python -m src.run` từ thư mục `starter/`. Trước khi làm TODO, lệnh này **chủ động báo `NotImplementedError`**.
-
-Lưu code, cấu hình, kết quả và lệnh chạy để người chấm tái lập; không commit key, dữ liệu mật hoặc dữ liệu không có quyền chia sẻ.

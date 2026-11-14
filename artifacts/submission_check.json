@@ -1,0 +1,16 @@
+{
+  "technical_checks": "passed",
+  "original_traces": 60,
+  "retrieved_chunks": 180,
+  "confirmed_coherence": 30,
+  "confirmed_grounding": 15,
+  "confirmed_metadata": 45,
+  "selected_strategy": "C",
+  "high_confidence_secret_pattern_findings": 0,
+  "scan_scope": "Git-tracked and nonignored text; heuristic, not a guarantee; local-only lab password intentionally allowed",
+  "pdf_permission_basis": "Student confirmation recorded in data/manifest.json",
+  "remaining_submission_items": [
+    "Final commit and push",
+    "Grader repository access and submission link delivery"
+  ]
+}
